@@ -1,12 +1,100 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Девайс</title>
   </head>
+
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+    <header class="main-header">
+      <a class="main-logo-link" href="#">
+        <img class="main-logo" src="#" alt="Логотип Девайс.">
+      </a>
+      <nav>
+        <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label class="visually-hidden" for="search">Поиск по сайту.</label>
+          <input class="search-input" type="search" name="search" id="search">
+          <a class="search-button" href="#">Найти</a>
+
+          <a class="login-button" href="#">Войти</a>
+        </form>
+          <a class="compare-button" href="#"></a>
+
+          <span class="cart-number">2</span>
+          <div class="popover popover-cart">
+            <div class="popover-content">
+
+            </div>
+          </div>
+          <a class="cart-button" href="#">Корзина</a>
+          <ul class="catalog">
+            <li class="catalog-item">
+              <a class="catalog-item-link" href="#">Каталог товаров</a>
+              <ul class="subcatalog">
+                <li class="subcatalog-item"><a class="subcatalog-item-link" href="#">Виртуальная реальность</a></li>
+                <li class="subcatalog-item"><a class="subcatalog-item-link" href="#">Моноподы для селфи</a></li>
+                <li class="subcatalog-item"><a class="subcatalog-item-link" href="#">Экшн камеры</a></li>
+                <li class="subcatalog-item"><a class="subcatalog-item-link" href="#">Фитнес-браслеты</a></li>
+                <li class="subcatalog-item"><a class="subcatalog-item-link" href="#">Умные часы</a></li>
+                <li class="subcatalog-item"><a class="subcatalog-item-link" href="#">Квадрокоптеры</a></li>
+              </ul>
+            </li>
+            <li class="catalog-item"><a href="#">Доставка</a></li>
+            <li class="catalog-item"><a href="#">Гарантия</a></li>
+            <li class="catalog-item"><a href="#">Контакты</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <main class="main-index">
+      <section class="slider">
+        <h1 class="visually-hidden">Интернет-магазин «Девайс»</h1>
+
+        <img class="slider-image" src="images/slider-1.jpg" alt="Фотография квадрокоптера."
+         width="560" height="560">
+         <button class="slider-button slider-next" type="button"></button>
+         <button class="slider-button slider-prev" type="button"></button>
+
+        <h3 class="slider-product-title">Порхает как бабочка,
+          жалит как пчела!</h3>
+
+        <p class="slider-product-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
+          замаскированным под стандартную камеру.</p>
+
+        <a class="button button-details" href="">Подробнее</a>
+
+        <span class="range-of-flight">800 м</span>
+        <p class="range-of-flight-text">Дальность полета</p>
+
+        <span class="damage-radius">50 м</span>
+        <p class="damage-radius-text">Радиус поражения</p>
+
+        <ol class="slider-pagination">
+          <li class="slider-pagination-item">
+            <button class="slider-pagination-button" type="button"></button>
+            <span class="visually-hidden">1 фото</span>
+          </li>
+          <li class="slider-pagination-item">
+            <button class="slider-pagination-button" type="button"></button>
+            <span class="visually-hidden">2 фото</span>
+          </li>
+          <li class="slider-pagination-item">
+            <button class="slider-pagination-button" type="button"></button>
+            <span class="visually-hidden">3 фото</span>
+          </li>
+        </ol>
+
+
+
+      </section>
+
+    </main>
+
+
 
   </body>
+
 </html>

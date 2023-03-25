@@ -72,6 +72,7 @@
         <h2 class="visually-hidden">Список товаров с фильтрами</h2>
 
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+          <h3 class="catalog-title">фильтр:</h3>
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Стоимость</legend>
 
@@ -157,6 +158,35 @@
           </fieldset>
           <button class="button" type="submit">Показать</button>
         </form>
+
+        <div class="catalog-right-column">
+          <h3 class="catalog-title">Сортировка:</h3>
+          <div class="sorting-container">
+            <div class="select sorting-type">
+              <select class="select-control" aria-label="Сортировка">
+                <option value="popular">Популярные</option>
+                <option value="popular">Новинки</option>
+                <option value="popular">Со скидкой</option>
+              </select>
+            </div>
+
+            <a class="card-toggle" href="#">
+              <span class="visually-hidden">Сначала дешёвые</span>
+
+            </a>
+            <a class="card-toggle сard-toggle-current" href="#">
+              <span class="visually-hidden">Сначала дорогие</span>
+
+            </a>
+
+
+
+
+
+          </div>
+        </div>
+
+
 
       </section>
 

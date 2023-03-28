@@ -160,3 +160,37 @@ body {
   background-color: #f0f0f0;
   color: #000000;
 }
+
+/* Блок "Связаться с нами" */
+
+.contact-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.contact-description {
+  color: #444444;
+}
+
+.transport-company {
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+
+.contacts-subtitle {
+  font-size: 24px;
+  color: #444444;
+}
+
+.contacts-address-text {
+  color: #444444;
+}
+
+.contacts-phone {
+  color: #444444;
+}
+
+.contacts-schedule {
+  color: #444444;
+}

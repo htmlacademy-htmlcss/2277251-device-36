@@ -132,3 +132,13 @@ body {
   font-size: 180px;
   color: #ffffff;
 }
+
+/* Список категорий каталога */
+
+.catalog-category-link {
+  font-family: "Raleway", sans-serif;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  text-decoration: none;
+}

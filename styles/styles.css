@@ -1,5 +1,4 @@
 /* Fonts */
-
 @font-face {
   font-family: "Raleway";
   font-style: normal;
@@ -33,7 +32,6 @@ body {
 }
 
 /* Pages */
-
 .main-header {
   background-color:#FFE17F;
   color: #000000;
@@ -97,8 +95,112 @@ body {
   color: #000000;
 }
 
-/* Slider */
+.inner-header-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
 
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Filter */
+.catalog-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+
+/* Label */
+.catalog-filter-label {
+  font-size: 14px;
+  line-height: 20px;
+  opacity: 0.3;
+}
+
+.control-label {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Item */
+.product-card {
+  background-color: #ffffff;
+}
+
+/* Link */
+.product-card-link {
+  text-decoration: none;
+}
+
+/* Title */
+.product-card-title {
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+/* Price */
+.product-card-price {
+  line-height: 21px;
+  color: #444444;
+}
+
+.button-upload-more {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* Pagination */
+.pagination-container {
+  background-color: #ebebeb;
+}
+
+.pagination-link {
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.3;
+  color: #444444;
+  text-decoration: none;
+}
+
+.pagination-current {
+  opacity: 0.6;
+}
+
+.pagination-prev {
+  font-family: "Raleway", sans-serif;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.pagination-next {
+  font-family: "Raleway", sans-serif;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 1;
+}
+
+/* Slider */
 .slider-product-title {
   font-family: "Raleway", sans-serif;
   font-size: 50px;

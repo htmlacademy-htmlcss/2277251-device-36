@@ -142,3 +142,9 @@ body {
   color: #000000;
   text-decoration: none;
 }
+
+/* Список преимуществ */
+
+.advantages-description {
+  color: #444444;
+}

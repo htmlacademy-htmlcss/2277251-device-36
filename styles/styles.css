@@ -210,3 +210,30 @@ body {
 .newsletter-additional-text {
   color: #444444;
 }
+
+/* Footer */
+
+.footer-index {
+  background-color:#444444;
+}
+
+.footer-about-text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.footer-list-link {
+  font-family: "Raleway", sans-serif;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-contacts-phone {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}

@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
   font-family: "Raleway";
   font-style: normal;
@@ -20,4 +22,66 @@
   font-weight: 700;
   src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
   font-display: swap;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Pages */
+
+.main-header {
+  background-color:#FFE17F;
+  color: #000000;
+}
+
+.search-button {
+  line-height: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.login-button {
+  text-decoration: none;
+  color: #000000;
+}
+
+.compare-button {
+  text-decoration: none;
+  color: #000000;
+}
+
+.cart-button {
+  text-decoration: none;
+  color: #000000;
+}
+
+.catalog-item-button {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.subcatalog-item-link {
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.catalog-item-link {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
 }

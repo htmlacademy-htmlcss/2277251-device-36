@@ -107,7 +107,7 @@ body {
   color: #000000;
 }
 
-.inner-header-title {
+.monopods-title {
   font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
@@ -121,7 +121,7 @@ body {
 }
 
 /* Filter */
-.catalog-title {
+.monopod-title {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 19px;
@@ -129,7 +129,7 @@ body {
   text-transform: uppercase;
 }
 
-.catalog-filter-title {
+.monopod-filter-title {
   font-weight: 700;
   line-height: 20px;
   letter-spacing: -0.02em;
@@ -148,17 +148,17 @@ body {
 }
 
 /* Item */
-.product-card {
+.monopod-card {
   background-color: #ffffff;
 }
 
 /* Link */
-.product-card-link {
+.monopod-card-link {
   text-decoration: none;
 }
 
 /* Title */
-.product-card-title {
+.monopod-card-title {
   font-weight: 700;
   line-height: 20px;
   letter-spacing: -0.02em;
@@ -166,7 +166,7 @@ body {
 }
 
 /* Price */
-.product-card-price {
+.monopod-card-price {
   line-height: 21px;
   color: #444444;
 }

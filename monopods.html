@@ -72,8 +72,8 @@
     </header>
 
     <main class="main-inner main-container">
-      <header class="inner-header">
-        <h1 class="inner-header-title">Моноподы для селфи</h1>
+      <section class="monopods-page-title">
+        <h1 class="monopods-title">Моноподы для селфи</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="index.html">Главная</a>
@@ -85,15 +85,15 @@
             <span class="breadcrumbs-link">Моноподы для селфи</span>
           </li>
         </ul>
-      </header>
+      </section>
 
-      <section class="catalog-products">
+      <section class="monopod-products">
         <h2 class="visually-hidden">Список товаров с фильтрами</h2>
 
-        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-          <h3 class="catalog-title">фильтр:</h3>
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Стоимость</legend>
+        <form class="monopod-filter" action="https://echo.htmlacademy.ru/" method="get">
+          <h3 class="monopod-title">фильтр:</h3>
+          <fieldset class="monopod-filter-group">
+            <legend class="monopod-filter-title">Стоимость</legend>
 
             <div class="range">
               <div class="range-scale">
@@ -108,45 +108,45 @@
               </div>
 
               <div class="range-wrapper-inputs">
-                <label class="catalog-filter-label">
+                <label class="monopod-filter-label">
                   от <input class="range-input" type="number" value="0" name="min-price">
                 </label>
-                <label class="catalog-filter-label">
+                <label class="monopod-filter-label">
                   до <input class="range-input" type="number" value="5000" name="max-price">
                 </label>
               </div>
             </div>
           </fieldset>
 
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Цвет</legend>
+          <fieldset class="monopod-filter-group">
+            <legend class="monopod-filter-title">Цвет</legend>
 
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
+            <ul class="monopod-filter-list">
+              <li class="monopod-filter-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" name="black-color" checked>
                   <span class="control-label">Черный</span>
                 </label>
               </li>
-              <li class="catalog-filter-item">
+              <li class="monopod-filter-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" name="white-color" checked>
                   <span class="control-label">Белый</span>
                 </label>
               </li>
-              <li class="catalog-filter-item">
+              <li class="monopod-filter-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" name="blue-color">
                   <span class="control-label">Синий</span>
                 </label>
               </li>
-              <li class="catalog-filter-item">
+              <li class="monopod-filter-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" name="red-color">
                   <span class="control-label">Красный</span>
                 </label>
               </li>
-              <li class="catalog-filter-item">
+              <li class="monopod-filter-item">
                 <label class="control">
                   <input class="control-input" type="checkbox" name="pink-color">
                   <span class="control-label">Розовый</span>
@@ -155,21 +155,21 @@
             </ul>
           </fieldset>
 
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Bluetooth</legend>
+          <fieldset class="monopod-filter-group">
+            <legend class="monopod-filter-title">Bluetooth</legend>
 
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
+            <ul class="monopod-filter-list">
+              <li class="monopod-filter-item">
                 <label class="control">
                   <input class="control-input" type="radio" name="bluetooth-group"
-                  value="have-bluetooth" checked>
+                  value="yes" checked>
                   <span class="control-label">Есть</span>
                 </label>
               </li>
-              <li class="catalog-filter-item">
+              <li class="monopod-filter-item">
                 <label class="control">
                   <input class="control-input" type="radio" name="bluetooth-group"
-                  value="no-bluetooth">
+                  value="no">
                   <span class="control-label">Нет</span>
                 </label>
               </li>
@@ -178,8 +178,8 @@
           <button class="button" type="submit">Показать</button>
         </form>
 
-        <div class="catalog-right-column">
-          <h3 class="catalog-title">Сортировка:</h3>
+        <div class="monopod-right-column">
+          <h3 class="monopod-title">Сортировка:</h3>
           <div class="sorting-container">
             <div class="select sorting-type">
               <select class="select-control" aria-label="Сортировка">
@@ -199,36 +199,36 @@
             </a>
           </div>
 
-          <ul class="product-list">
-            <li class="product-card">
-              <a class="product-card-link" href="#">
-                <img class="product-card-image" src="images/product-1.jpg" width="360" height="380" alt="">
-                <h4 class="product-card-title">Любительская
+          <ul class="monopod-list">
+            <li class="monopod-card">
+              <a class="monopod-card-link" href="#">
+                <img class="monopod-card-image" src="images/monopod-1.jpg" width="360" height="380" alt="">
+                <h4 class="monopod-card-title">Любительская
                   селфи-палка</h4>
               </a>
-              <span class="product-card-price">500 ₽</span>
+              <span class="monopod-card-price">500 ₽</span>
             </li>
-            <li class="product-card">
-              <a class="product-card-link" href="#">
-                <img class="product-card-image" src="images/product-2.jpg" width="360" height="380" alt="">
-                <h4 class="product-card-title">Профессиональная селфи-палка</h4>
+            <li class="monopod-card">
+              <a class="monopod-card-link" href="#">
+                <img class="monopod-card-image" src="images/monopod-2.jpg" width="360" height="380" alt="">
+                <h4 class="monopod-card-title">Профессиональная селфи-палка</h4>
               </a>
-              <span class="product-card-price">1 500 ₽</span>
+              <span class="monopod-card-price">1 500 ₽</span>
             </li>
-            <li class="product-card">
-              <a class="product-card-link" href="#">
-                <img class="product-card-image" src="images/product-3.jpg" width="360" height="380" alt="">
-                <h4 class="product-card-title">Непотопляемая
+            <li class="monopod-card">
+              <a class="monopod-card-link" href="#">
+                <img class="monopod-card-image" src="images/monopod-3.jpg" width="360" height="380" alt="">
+                <h4 class="monopod-card-title">Непотопляемая
                   селфи-палка</h4>
               </a>
-              <span class="product-card-price">2 500 ₽</span>
+              <span class="monopod-card-price">2 500 ₽</span>
             </li>
-            <li class="product-card">
-              <a class="product-card-link" href="#">
-                <img class="product-card-image" src="images/product-4.jpg" width="360" height="380" alt="">
-                <h4 class="product-card-title">Селфи-палка «Следуй за мной»</h4>
+            <li class="monopod-card">
+              <a class="monopod-card-link" href="#">
+                <img class="monopod-card-image" src="images/monopod-4.jpg" width="360" height="380" alt="">
+                <h4 class="monopod-card-title">Селфи-палка «Следуй за мной»</h4>
               </a>
-              <span class="product-card-price">1 500 ₽</span>
+              <span class="monopod-card-price">1 500 ₽</span>
             </li>
           </ul>
 

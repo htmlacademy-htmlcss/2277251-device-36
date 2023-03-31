@@ -28,9 +28,11 @@ html {
 }
 
 body {
+  min-width: 1440px;
   margin: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
   min-height: 100%;
   font-family: "Rubik", sans-serif;
   font-size: 18px;
@@ -42,6 +44,10 @@ body {
 /* Pages */
 .main-container {
   flex-grow: 1;
+}
+
+.page-container {
+  width: 1160px;
 }
 
 .main-header {

@@ -52,6 +52,13 @@ body {
   overflow: hidden;
 }
 
+.reset-list {  /* Для всех списков */
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
 /* Pages */
 .main-container {
   flex-grow: 1;

@@ -405,6 +405,7 @@ body {
 /* Блок "Связаться с нами" */
 
 .contact-title {
+  padding-top: 40px;
   font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
@@ -435,6 +436,25 @@ body {
 .contacts-schedule {
   color: #444444;
 }
+
+.about-us-wrapper {
+  position: relative;
+}
+
+.about-us-wrapper::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 84px;
+  height: 7px;
+  margin-bottom: 70px;
+  background-image: url("../images/black-stick-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
 
 /* Блок "Подпишитесь на рассылку" */
 

@@ -290,12 +290,65 @@ body {
 
 /* Список категорий каталога */
 
+.catalog-category-list {
+  list-style-type: none;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 70px;
+
+}
+
 .catalog-category-link {
+  width: 160px;
+  display: block;
+  position: relative;
   font-family: "Raleway", sans-serif;
   line-height: 24px;
-  letter-spacing: -0.02em;
   color: #000000;
   text-decoration: none;
+  padding-top: 190px;
+}
+
+.catalog-category-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 160px;
+  height: 160px;
+  background-color: #ffe17f;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.catalog-category-link-fitness-bracelets {
+  letter-spacing: -0.02em;
+}
+
+.catalog-category-link-vr::before {
+  background-image: url("../images/vr-icon.svg");
+}
+
+.catalog-category-link-monopods::before {
+  background-image: url("../images/monopods-for-selfie.svg");
+  background-position: bottom;
+}
+
+.catalog-category-link-action-cameras::before {
+  background-image: url("../images/action-cameras.svg");
+}
+
+.catalog-category-link-fitness-bracelets::before {
+  background-image: url("../images/fitness-bracelets.svg");
+}
+
+.catalog-category-link-smart-watches::before {
+  background-image: url("../images/smart-watches.svg");
+}
+
+.catalog-category-link-quadcopters::before {
+  background-image: url("../images/quadcopters.svg");
 }
 
 /* Список преимуществ */

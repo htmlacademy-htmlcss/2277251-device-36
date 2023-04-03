@@ -358,15 +358,48 @@ body {
 }
 
 .delivery-info-link {
+  position: relative;
+  display: flex;
+  width: 1160px;
   font-family: "Raleway", sans-serif;
   font-size: 20px;
   line-height: 23px;
-  text-align: center;
+  justify-content: center;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   text-decoration: none;
   background-color: #f0f0f0;
   color: #000000;
+  padding: 40px 125px;
+}
+
+.delivery-info-link::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 125px;
+  height: 103px;
+  background-color: #ffe17f;
+  background-image: url("../images/delivery-car-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.delivery-info-link::after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-image: url("../images/info-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(220, 220, 220, 0.5);
+
+
 }
 
 /* Блок "Связаться с нами" */

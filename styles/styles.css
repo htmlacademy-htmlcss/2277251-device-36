@@ -137,7 +137,15 @@ body {
   color: #000000;
 }
 
+.breadcrumbs-item {
+  padding-right: 36px;
+}
+
 .monopods-title {
+  margin: 0;
+  padding: 0;
+  padding-top: 35px;
+  padding-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;

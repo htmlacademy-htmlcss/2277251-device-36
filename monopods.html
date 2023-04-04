@@ -72,7 +72,6 @@
         </nav>
       </header>
 
-      <main class="main-inner main-container">
         <section class="monopods-page-title">
           <h1 class="monopods-title">Моноподы для селфи</h1>
           <ul class="breadcrumbs reset-list">
@@ -88,11 +87,12 @@
           </ul>
         </section>
 
+        <main class="main-inner main-container">
         <section class="monopod-products">
           <h2 class="visually-hidden">Список товаров с фильтрами</h2>
-
+        <div class="filter-wrapper">
           <form class="monopod-filter" action="https://echo.htmlacademy.ru/" method="get">
-            <h3 class="monopod-title">фильтр:</h3>
+            <h3 class="monopod-title-filter">фильтр:</h3>
             <fieldset class="monopod-filter-group">
               <legend class="monopod-filter-title">Стоимость</legend>
               <div class="range">
@@ -172,27 +172,30 @@
             </fieldset>
             <button class="button" type="submit">Показать</button>
           </form>
-
+        </div>
           <div class="monopod-right-column">
-            <h3 class="monopod-title">Сортировка:</h3>
-            <div class="sorting-container">
-              <div class="select sorting-type">
-                <select class="select-control" aria-label="Сортировка">
-                  <option value="popular">Популярные</option>
-                  <option value="popular">Новинки</option>
-                  <option value="popular">Со скидкой</option>
-                </select>
+            <div class="sorting-block-wrapper">
+              <h3 class="monopod-title-sorting">Сортировка:</h3>
+              <div class="sorting-container">
+                <div class="select sorting-type">
+                  <select class="select-control" aria-label="Сортировка">
+                    <option value="popular">Популярные</option>
+                    <option value="popular">Новинки</option>
+                    <option value="popular">Со скидкой</option>
+                  </select>
+                </div>
+
+                <button class="card-toggle" type="button">
+                  <span class="visually-hidden">Сначала дешёвые</span>
+
+                </button>
+                <button class="card-toggle сard-toggle-current" type="button">
+                  <span class="visually-hidden">Сначала дорогие</span>
+
+                </button>
               </div>
-
-              <button class="card-toggle" type="button">
-                <span class="visually-hidden">Сначала дешёвые</span>
-
-              </button>
-              <button class="card-toggle сard-toggle-current" type="button">
-                <span class="visually-hidden">Сначала дорогие</span>
-
-              </button>
             </div>
+
 
             <ul class="monopod-list reset-list">
               <li class="monopod-card">

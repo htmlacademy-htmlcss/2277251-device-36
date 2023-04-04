@@ -70,6 +70,54 @@ body {
   flex-grow: 1;
 }
 
+.main-inner {
+  min-width: 1440px;
+}
+
+.monopod-products {
+  display: flex;
+  background-color: #f0f0f0;
+}
+
+.monopods-page-title {
+  margin-bottom: 34px;
+}
+
+.monopod-right-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+}
+
+.monopod-list.reset-list {
+  width: 840px;
+  padding-top: 70px;
+  padding-left: 40px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.sorting-block-wrapper {
+  min-width: 840px;
+  margin: 0;
+  display: flex;
+  background-color: #f0f0f0;
+
+}
+
+.button-upload-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 760px;
+  height: 55px;
+  border: 3px solid #e5e5e5;
+  margin: 0 auto;
+  margin-top: 62px;
+  margin-bottom: 62px;
+}
+
 .page-container {
   width: 1160px;
 }
@@ -159,12 +207,21 @@ body {
 }
 
 /* Filter */
-.monopod-title {
+.monopod-title-filter {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+}
+
+.monopod-title-sorting {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-right: 205px;
 }
 
 .monopod-filter-title {
@@ -218,6 +275,10 @@ body {
 }
 
 /* Pagination */
+.pagination {
+margin-bottom: 78px;
+}
+
 .pagination-container {
   background-color: #ebebeb;
 }
@@ -483,6 +544,8 @@ body {
 /* Footer */
 
 .footer-index {
+  min-width: 1440px;
+  min-height: 321px;
   background-color:#444444;
 }
 

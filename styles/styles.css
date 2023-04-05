@@ -121,9 +121,82 @@ body {
 .page-container {
   width: 1160px;
 }
+/* Slider */
+.slider {
+  display: flex;
+}
+
+.slider-right-wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.button-details {
+  margin-top: 60px;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+.characteristics {
+  display: flex;
+}
+
+.characteristics-wrapper:not(:last-child) {
+  margin-right: 20px;
+}
+
+.slider-pagination {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 20px;
+  margin-bottom: 70px;
+}
+
+.slider-pagination-button {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 2px solid #000000;
+}
+
+.slider-pagination-button-current {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  background-color: #000000;
+  border-radius: 50%;
+  border: 2px solid #000000;
+}
+
+.slider-image {
+  display: block;
+}
+
+.slider-wrapper {
+  margin-right: 40px;
+  width: 560px;
+  min-height: 560px;
+  position: relative;
+}
+
+.slider-buttons-wrapper {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
 
 .main-header {
-  background-color:#FFE17F;
+  background-color:#ffe17f;
   color: #000000;
 }
 
@@ -313,12 +386,32 @@ margin-bottom: 78px;
 
 /* Slider */
 .slider-product-title {
+  width: 545px;
   font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
 }
 
+.slider-button {
+  width: 20px;
+  height: 60px;
+  background-image: url("../images/slider-left-arrow.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border: none;
+  cursor: pointer;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.slider-prev {
+  transform: rotate(180deg);
+}
+
 .slider-product-description {
+  margin: 0;
+  width: 560px;
   color: #444444;
 }
 

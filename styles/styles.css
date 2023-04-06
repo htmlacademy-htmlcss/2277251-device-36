@@ -239,6 +239,22 @@ body {
   display: flex;
 }
 
+.search-label {
+  position: relative;
+}
+
+.search-label::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/search-icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  left: 16px;
+  top: 12px;
+}
+
 .login-username {
   text-decoration: none;
   color: #000000;

@@ -17,26 +17,26 @@
         <div class="header-navigation-wrapper">
           <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
             <label class="search-label">
-              <input class="search-input" type="search" name="search" placeholder="Поиск по сайту">
+              <input class="search-input" type="search" name="search" placeholder="Поиск по сайту" required>
             </label>
             <a class="search-button" href="#">Найти</a>
-
           </form>
+
           <nav class="main-navigation">
             <a class="login-username" href="#">Коля Петухов</a>
 
             <a class="logout-button" href="#">Выйти</a>
 
-          <a class="compare-button" href="#">Сравнить</a>
+            <a class="compare-button" href="#">Сравнить</a>
 
-          <span class="cart-number">2</span>
-          <div class="popover popover-cart">
-            <div class="popover-content">
+            <span class="cart-number">2</span>
+            <div class="popover popover-cart">
+              <div class="popover-content">
 
+              </div>
             </div>
-          </div>
-          <a class="cart-button" href="#">Корзина</a>
-        </div>
+            <a class="cart-button" href="#">Корзина</a>
+          </nav>
           <ul class="catalog reset-list">
             <li class="catalog-item">
               <button class="catalog-item-button" type="button">Каталог товаров</button>
@@ -71,7 +71,7 @@
               <a class="catalog-item-link" href="#">Контакты</a>
             </li>
           </ul>
-        </nav>
+        </div>
       </header>
 
         <section class="monopods-page-title">
@@ -92,28 +92,28 @@
         <main class="main-inner main-container">
         <section class="monopod-products">
           <h2 class="visually-hidden">Список товаров с фильтрами</h2>
-        <div class="filter-wrapper">
-          <form class="monopod-filter" action="https://echo.htmlacademy.ru/" method="get">
-            <h3 class="monopod-title-filter">фильтр:</h3>
-            <fieldset class="monopod-filter-group">
-              <legend class="monopod-filter-title">Стоимость</legend>
-              <div class="range">
-                <button class="range-toggle toggle-min" type="button">
-                  <span class="visually-hidden">Изменить минимальную цену.</span>
-                </button>
-                <button class="range-toggle toggle-max" type="button">
-                  <span class="visually-hidden">Изменить максимальную цену.</span>
-                </button>
-              </div>
-              <div class="range-wrapper-inputs">
-                <label class="monopod-filter-label">
-                  <input class="range-input" type="number" name="min-price" placeholder="от 0">
-                </label>
-                <label class="monopod-filter-label">
-                  <input class="range-input" type="number" name="max-price" placeholder="до 5000">
-                </label>
-              </div>
-            </fieldset>
+            <div class="filter-wrapper">
+              <form class="monopod-filter" action="https://echo.htmlacademy.ru/" method="get">
+                <h3 class="monopod-title-filter">фильтр:</h3>
+                <fieldset class="monopod-filter-group">
+                  <legend class="monopod-filter-title">Стоимость</legend>
+                  <div class="range">
+                    <button class="range-toggle toggle-min" type="button">
+                      <span class="visually-hidden">Изменить минимальную цену.</span>
+                    </button>
+                    <button class="range-toggle toggle-max" type="button">
+                      <span class="visually-hidden">Изменить максимальную цену.</span>
+                    </button>
+                  </div>
+                  <div class="range-wrapper-inputs">
+                    <label class="monopod-filter-label">
+                      <input class="range-input" type="number" name="min-price" placeholder="от 0">
+                    </label>
+                    <label class="monopod-filter-label">
+                      <input class="range-input" type="number" name="max-price" placeholder="до 5000">
+                    </label>
+                  </div>
+                </fieldset>
 
             <fieldset class="monopod-filter-group">
               <legend class="monopod-filter-title">Цвет</legend>

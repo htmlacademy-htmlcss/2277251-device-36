@@ -121,6 +121,26 @@ body {
 .page-container {
   width: 1160px;
 }
+
+.header-container {
+  display: block;
+  width: 1040px;
+  background-color:#ffe17f;
+}
+
+.search-input {
+  width: 360px;
+  height: 40px;
+  font-family: 'Rubik';
+  font-size: 16px;
+  line-height: 20px;
+  border: 2px solid #000000;
+  border-radius: 50px 0 0 50px;
+  padding-left: 48px;
+  background-color: #ffe17f;
+
+}
+
 /* Slider */
 .slider {
   display: flex;
@@ -201,9 +221,22 @@ body {
 }
 
 .search-button {
+  width: 160px;
+  height: 40px;
+  border: 2px solid #000000;
+  border-radius: 0 50px 50px 0;
+  border-left: none;
+  text-align: center;
+  padding: 10px;
   line-height: 20px;
   text-decoration: none;
   color: #000000;
+  font-family: 'Rubik';
+  font-size: 16px;
+}
+
+.search-form {
+  display: flex;
 }
 
 .login-username {

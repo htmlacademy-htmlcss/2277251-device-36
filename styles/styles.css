@@ -70,10 +70,6 @@ body {
   flex-grow: 1;
 }
 
-.main-inner {
-  min-width: 1440px;
-}
-
 .monopod-products {
   display: flex;
   background-color: #f0f0f0;
@@ -216,6 +212,8 @@ body {
 }
 
 .main-header {
+  min-width: 1160px;
+  min-height: 300px;
   background-color:#ffe17f;
   color: #000000;
 }
@@ -350,6 +348,10 @@ body {
   font-weight: 700;
   line-height: 20px;
   letter-spacing: -0.02em;
+}
+
+.filter-wrapper {
+  width: 320px;
 }
 
 /* Label */

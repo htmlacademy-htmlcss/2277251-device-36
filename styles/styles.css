@@ -145,13 +145,14 @@ body {
 
 .header-navigation-wrapper {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 45px;
 
 }
 
 .main-navigation {
   display: flex;
+  align-items: center;
 }
 
 .right-navigation-wrapper {
@@ -160,6 +161,11 @@ body {
 }
 
 .login-link-button {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logout-link-button {
   text-decoration: none;
   color: inherit;
 }
@@ -254,7 +260,6 @@ body {
 .main-header {
   min-width: 1160px;
   min-height: 300px;
-  background-color:#ffe17f;
   color: #000000;
   padding: 20px 60px 0 60px;
   display: flex;

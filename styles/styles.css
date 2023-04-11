@@ -124,6 +124,45 @@ body {
   background-color:#ffe17f;
 }
 
+.catalog {
+  gap: 20px;
+}
+
+.login-list {
+  margin: 0;
+  padding: 0;
+  min-width: 231px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  gap: 30px;
+}
+
+.main-logo-link {
+  margin-bottom: 30px;
+}
+
+.header-navigation-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 45px;
+
+}
+
+.main-navigation {
+  display: flex;
+}
+
+.right-navigation-wrapper {
+  display: flex;
+  gap: 36px;
+}
+
+.login-link-button {
+  text-decoration: none;
+  color: inherit;
+}
+
 .search-input {
   width: 360px;
   height: 40px;
@@ -216,6 +255,11 @@ body {
   min-height: 300px;
   background-color:#ffe17f;
   color: #000000;
+  padding: 20px 60px 0 60px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(#ffffff 0, #ffffff 40px, #ffe17f 40px, #ffe17f 100%);
+
 }
 
 .search-button {
@@ -234,7 +278,10 @@ body {
 }
 
 .search-form {
+  width: 520px;
+  margin: 0;
   display: flex;
+  margin-right: 54px;
 }
 
 .search-label {
@@ -286,6 +333,8 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #000000;
+  border: none;
+  background-color: inherit;
 }
 
 .subcatalog-item-link {

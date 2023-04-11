@@ -14,25 +14,29 @@
           <a class="main-logo-link" href="#">
             <img class="main-logo" src="images/device-logo.svg" alt="Логотип Девайс.">
           </a>
-          <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
-            <label class="search-label">
-              <input class="search-input" type="search" name="search" placeholder="Поиск по сайту">
-            </label>
-            <a class="search-button" href="#">Найти</a>
-          </form>
-          <nav class="main-navigation">
-            <a class="login-button" href="#">Войти</a>
+          <div class="header-navigation-wrapper">
+            <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+              <label class="search-label">
+                <input class="search-input" type="search" name="search" placeholder="Поиск по сайту">
+              </label>
+              <a class="search-button" href="#">Найти</a>
+            </form>
+              <nav class="main-navigation">
+                <ul class="login-list">
+                  <li class="login-list-item">
+                   <a class="login-link-button" href="#">Войти</a>
+                  </li>
+                  <li class="login-list-item">
+                    <a class="login-link-button" href="#">Выйти</a>
+                   </li>
+                </ul>
 
-            <a class="compare-button" href="#">Сравнить</a>
-
-            <span class="cart-number">2</span>
-            <div class="popover popover-cart">
-              <div class="popover-content">
-
-              </div>
-            </div>
-            <a class="cart-button" href="#">Корзина</a>
-          </nav>
+                <div class="right-navigation-wrapper">
+                  <a class="compare-button" href="#">Сравнить</a>
+                  <a class="cart-button" href="#">Корзина</a>
+                </div>
+              </nav>
+          </div class="header-navigation-wrapper">
           <ul class="catalog reset-list">
             <li class="catalog-item">
               <button class="catalog-item-button" type="button">Каталог товаров</button>

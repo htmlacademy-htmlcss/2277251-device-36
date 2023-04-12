@@ -756,6 +756,8 @@ margin-bottom: 78px;
 }
 
 .contacts-phone {
+  font-size: 16px;
+  line-height: 20px;
   color: #ffffff;
 }
 
@@ -846,6 +848,7 @@ margin-bottom: 78px;
 }
 
 .footer-about-text {
+  min-width: 240px;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
@@ -868,20 +871,44 @@ margin-bottom: 78px;
 
 .footer-index-container {
   display: flex;
-  padding-right: 140px;
-  padding-left: 140px;
+  padding-right: 60px;
+  padding-left: 60px;
   min-height: 321px;
 }
 
 .footer-address {
+  position: relative;
+  width: 234px;
+  height: 182px;
+  margin-top: 76px;
+  margin-right: 124px;
+}
+
+.footer-address::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 7px;
+  bottom: 0;
+  left: 0;
+  background-image: url("../images/yellow-stick-image.svg");
+  /* background-position: left, bottom; */
+  background-repeat: no-repeat;
+}
+
+.footer-phone {
+  margin-top: 150px;
+  margin-left: 125px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  width: 234px;
-  min-height: 182px;
-  margin-right: 124px;
+  justify-content: space-between;
+  width: 175px;
+  height: 116px;
+}
+
+.logo-html-academy {
+  display: flex;
+  align-self: self-end;
 }
 
 .footer-lists {

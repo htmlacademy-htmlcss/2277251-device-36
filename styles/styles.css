@@ -761,7 +761,7 @@ margin-bottom: 78px;
 }
 
 .contacts-phone {
-  color: #444444;
+  color: #ffffff;
 }
 
 .contacts-schedule {
@@ -871,4 +871,41 @@ margin-bottom: 78px;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+}
+
+.footer-index-container {
+  display: flex;
+  padding-right: 140px;
+  padding-left: 140px;
+  min-height: inherit;
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 234px;
+  min-height: 182px;
+  margin-right: 124px;
+}
+
+.footer-lists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 444px;
+  min-height: 123px;
+}
+
+.footer-list {
+  gap: 35px;
+}
+
+.footer-logo {
+  display: flex;
+  align-self: start;
+  margin-bottom: 35px;
 }

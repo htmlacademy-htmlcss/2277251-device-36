@@ -34,11 +34,9 @@ html {
 }
 
 body {
-  min-width: 1440px;
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
   min-height: 100%;
   font-family: "Rubik", sans-serif;
   font-size: 18px;
@@ -157,9 +155,6 @@ body {
   margin-bottom: 62px;
 }
 
-.page-container {
-  width: 1160px;
-}
 
 .header-container {
   display: block;
@@ -843,13 +838,11 @@ margin-bottom: 78px;
 .newsletter-additional-text {
   color: #444444;
 }
-
 /* Footer */
 
 .footer-index {
-  min-width: 1440px;
-  min-height: 321px;
   background-color:#444444;
+
 }
 
 .footer-about-text {

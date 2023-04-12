@@ -870,7 +870,7 @@ margin-bottom: 78px;
   display: flex;
   padding-right: 140px;
   padding-left: 140px;
-  min-height: inherit;
+  min-height: 321px;
 }
 
 .footer-address {

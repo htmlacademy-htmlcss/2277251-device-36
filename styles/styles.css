@@ -229,7 +229,23 @@ body {
 
 /* Slider */
 .slider {
+  position: relative;
+  margin: 0;
+  padding: 0;
   display: flex;
+  z-index: 1;
+
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  top: 0;
+  left: 0;
+  background-color: #ffe17f;
+  z-index: -1;
 }
 
 .slider-right-wrapper {
@@ -302,7 +318,6 @@ body {
 }
 
 .main-header {
-  min-width: 1160px;
   min-height: 300px;
   color: #000000;
   padding: 20px 60px 0 60px;
@@ -449,8 +464,20 @@ body {
   letter-spacing: -0.02em;
 }
 
+.monopod-filter-list {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  min-height: 168px;
+}
+
+.monopod-filter-group {
+  border: none;
+}
+
 .filter-wrapper {
   width: 320px;
+  padding: 20px 0 0 60px;
 }
 
 .field {
@@ -840,6 +867,7 @@ margin-bottom: 78px;
 .newsletter-button {
   width: 253px;
   border: 3px solid #c4c4c4;
+  cursor: pointer;
 }
 
 .newsletter-additional-text {

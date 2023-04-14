@@ -391,7 +391,7 @@ body {
   color: #000000;
 }
 
-.catalog-item-button {
+.catalog-toggler-button {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -756,6 +756,7 @@ margin-bottom: 78px;
 
 .catalog-category-link {
   width: 160px;
+  min-height: 252px;
   display: block;
   position: relative;
   font-family: "Raleway", sans-serif;

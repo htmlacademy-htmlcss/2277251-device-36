@@ -944,6 +944,7 @@ body {
   background-color: #f0f0f0;
   color: #000000;
   padding: 40px 125px;
+  margin-bottom: 70px;
 }
 
 .delivery-info-link::before {

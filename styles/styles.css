@@ -1001,17 +1001,32 @@ body {
   width: 510px;
   margin: 0;
   color: #444444;
+  margin-bottom: 30px;
 }
 
 .transport-company {
+  position: relative;
   line-height: 20px;
   letter-spacing: -0.02em;
+  padding-left: 34px;
+}
+
+.transport-company::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #ffc700;
+  border-radius: 50%;
 }
 
 .contacts-subtitle {
   font-size: 24px;
   color: #444444;
-  margin-bottom: 0;
+  margin: 0;
+  margin-bottom: 15px;
 }
 
 .contacts-address-text {
@@ -1020,9 +1035,11 @@ body {
 }
 
 .contacts-phone {
+  display: inline-block;
   font-size: 16px;
   line-height: 20px;
-  color: #ffffff;
+  color: #444444;
+  margin-bottom: 30px;
 }
 
 .contacts-schedule {

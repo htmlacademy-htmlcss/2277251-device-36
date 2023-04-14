@@ -1103,6 +1103,14 @@ body {
 
 
 /* Блок "Подпишитесь на рассылку" */
+.newsletter-wrapper {
+  display: flex;
+}
+
+.newsletter-form-wrapper {
+  display: flex;
+}
+
 .newsletter {
   background-color: #f0f0f0;
 }

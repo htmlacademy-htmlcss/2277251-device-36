@@ -977,8 +977,13 @@ body {
 }
 
 /* Блок с табами */
+.tabs-buttons-list {
+  list-style-type: none;
+}
 
-
+.tabs-description-list {
+  list-style-type: none;
+}
 
 /* Блок "Связаться с нами" */
 .contact {
@@ -1043,12 +1048,26 @@ body {
 }
 
 .contacts-wrapper {
+  position: relative;
   max-width: 532px;
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0;
   margin-left: auto;
+}
+
+.contacts-wrapper::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 84px;
+  height: 7px;
+  margin-bottom: 70px;
+  background-image: url("../images/black-stick-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .about-us-wrapper::before {

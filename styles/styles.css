@@ -656,8 +656,15 @@ body {
   padding-left: 36px;
 }
 
+.control:hover {
+  opacity: 0.6;
+}
 
-.control-checkbox .control-outline {
+.control:active {
+  opacity: 0.3;
+}
+
+.control-outline-checkbox {
   position: absolute;
   top: -1px;
   left: 0;
@@ -669,7 +676,7 @@ body {
   line-height: 20px;
 }
 
-.input-checkbox:checked + .control-outline::before {
+.input-checkbox:checked + .control-outline-checkbox::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -684,6 +691,10 @@ body {
 .input-checkbox:focus-visible + .control-outline {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
+}
+
+.input-checkbox:disabled ~ span {
+  opacity: 0.1;
 }
 
 /* Item */

@@ -245,6 +245,9 @@ body {
   border-radius: 50px 0 0 50px;
   padding-left: 48px;
   background-color: #ffe17f;
+  background-image: url("../images/search-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 16px 10px;
 
 }
 
@@ -430,22 +433,6 @@ body {
   margin: 0;
   display: flex;
   margin-right: 54px;
-}
-
-.search-label {
-  position: relative;
-}
-
-.search-label::before {
-  content: "";
-  position: absolute;
-  background-image: url("../images/search-icon.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 16px;
-  height: 16px;
-  left: 16px;
-  top: 12px;
 }
 
 .login-username {

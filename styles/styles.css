@@ -698,13 +698,38 @@ body {
   background-position: center;
 }
 
-.input-checkbox:focus-visible + .control-outline {
+.input-checkbox:focus-visible + .control-outline,
+.input-radio:focus-visible + .control-outline {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
 
-.input-checkbox:disabled ~ span {
+.input-checkbox:disabled ~ span,
+.input-radio:disabled ~ span {
   opacity: 0.1;
+}
+
+.control-outline-radio::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: 2px solid #cccccc;
+  border-radius: 50%
+}
+
+.input-radio:checked + .control-outline-radio::before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  border-radius: 50%;
 }
 
 /* Item */

@@ -204,7 +204,9 @@ body {
 }
 
 .right-navigation-wrapper {
+  width: 222px;
   display: flex;
+  justify-content: space-between;
   margin-left: auto;
   gap: 36px;
 }
@@ -446,8 +448,21 @@ body {
 }
 
 .compare-button {
+  position: relative;
   text-decoration: none;
   color: #000000;
+}
+
+.compare-button::before {
+  content: "";
+  position: absolute;
+  top: 9px;
+  left: -22px;
+  background-image: url("../images/compare-image.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 12px;
 }
 
 .cart-button {
@@ -460,8 +475,9 @@ body {
   content: attr(data-cart-counter);
   position: absolute;
   min-width: 21px;
-  left: 0;
-  pad: 0 4px;
+  top: 4px;
+  left: -20px;
+  padding: 0 4px;
   transform: translateX(-100%);
   height: 21px;
   font-family: "Rubik", sans-serif;
@@ -472,7 +488,19 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
+  z-index: 1;
+}
 
+.cart-button::after {
+  content: "";
+  width: 16px;
+  height: 14px;
+  top: 6px;
+  left: -26px;
+  position: absolute;
+  background-image: url("../images/cart-image.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .catalog-toggler-button {

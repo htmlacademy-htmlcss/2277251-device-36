@@ -948,6 +948,19 @@ body {
 
 /* Список преимуществ */
 
+.advantages-wrapper {
+  display: flex;
+  width: 1160px;
+}
+
+.tabs-description-list-item-guarantee {
+  display: none;
+}
+
+.tabs-description-list-item-credit {
+  display: none;
+}
+
 .advantages-description {
   color: #444444;
 }
@@ -1000,10 +1013,21 @@ body {
 
 /* Блок с табами */
 .tabs-buttons-list {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+  width: 287px;
+  min-height: 280px;
+  padding: 0;
   list-style-type: none;
 }
 
 .tabs-description-list {
+  display: flex;
+  align-items: center;
+  width: 694px;
+  min-height: 174px;
   list-style-type: none;
 }
 

@@ -198,12 +198,14 @@ body {
 }
 
 .main-navigation {
+  min-width: 466px;
   display: flex;
   align-items: center;
 }
 
 .right-navigation-wrapper {
   display: flex;
+  margin-left: auto;
   gap: 36px;
 }
 

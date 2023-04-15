@@ -650,9 +650,40 @@ body {
   opacity: 0.3;
 }
 
-.control-label {
+.control {
+  cursor: pointer;
+  position: relative;
+  padding-left: 36px;
+}
+
+
+.control-checkbox .control-outline {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  background-color: none;
+  border: 2px solid #cccccc;
   font-size: 16px;
   line-height: 20px;
+}
+
+.input-checkbox:checked + .control-outline::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url("../images/checkbox-tick.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.input-checkbox:focus-visible + .control-outline {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
 }
 
 /* Item */

@@ -1210,10 +1210,12 @@ body {
 
 .newsletter-form-wrapper {
   display: flex;
+  justify-content: space-between;
 }
 
 .newsletter {
   background-color: #f0f0f0;
+  min-height: 421px;
 }
 
 .newsletter-title {
@@ -1224,7 +1226,7 @@ body {
 }
 
 .newsletter-description {
-  max-width: 560px;
+  max-width: 528px;
   color: #444444;
 }
 
@@ -1233,7 +1235,7 @@ body {
   width: 810px;
   min-height: 57px;
   background-color: inherit;
-  margin-bottom: 55px;
+
 }
 
 .newsletter-button {
@@ -1243,8 +1245,24 @@ body {
 }
 
 .newsletter-additional-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #444444;
 }
+
+.newsletter-additional-text::before {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-image: url("../images/green-tick-image.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  left: -30px;
+}
+
 /* Footer */
 
 .footer-index {

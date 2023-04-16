@@ -1179,6 +1179,7 @@ body {
 
 /* Блок с табами */
 .tabs-buttons-list {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 35px;
@@ -1187,6 +1188,16 @@ body {
   min-height: 280px;
   padding: 0;
   list-style-type: none;
+}
+
+.tabs-buttons-list::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 319px;
+  top: 0;
+  left: 280px;
+  background-color: #000000;
 }
 
 .tabs-description-list {

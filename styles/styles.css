@@ -538,7 +538,11 @@ body {
 }
 
 .catalog-toggler-wrapper {
-  min-width: 293px;
+  min-width: 290px;
+}
+
+.catalog-toggler-wrapper:focus-within .subcatalog {
+  display: flex;
 }
 
 .subcatalog {

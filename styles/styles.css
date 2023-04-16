@@ -193,7 +193,6 @@ body {
 .header-navigation-wrapper {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 45px;
 
 }
 
@@ -303,7 +302,8 @@ body {
 
 .header-lists-wrapper {
   display: flex;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 
 }
 
@@ -517,14 +517,16 @@ body {
   color: #000000;
   border: none;
   background-color: inherit;
-  padding: 0;
+  padding: 15px 57px 15px 0;
+  cursor: pointer;
+
 }
 
 .catalog-toggler-button::before {
   content: "";
   position: absolute;
-  top: -15px;
-  left: 244px;
+  top: 0;
+  right: -7px;
   width: 50px;
   height: 50px;
   border: 2px solid #000000;

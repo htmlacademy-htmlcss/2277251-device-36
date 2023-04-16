@@ -895,6 +895,7 @@ body {
   margin-bottom: 50px;
 }
 
+/* Стилизация кнопок */
 .button {
   cursor: pointer;
   font-family: "Raleway", sans-serif;
@@ -903,9 +904,19 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+  border: none;
+  background-color: transparent;
 }
 
-/* Стилизация кнопок */
+.button-decorated {
+  max-width: 260px;
+  position: relative;
+  z-index: 1;
+  padding: 16px 25px;
+  text-align: center;
+    transition: flex-grow 0.3s ease, color 0.3s ease, padding-left 0.3s ease;
+}
+
 .button-decorated-details {
   max-width: 220px;
   position: relative;
@@ -957,14 +968,6 @@ body {
   transform: translateY(-50%) scaleY(1);
 }
 
-.button-decorated {
-  max-width: 260px;
-  position: relative;
-  z-index: 1;
-  padding: 16px 25px;
-  text-align: center;
-}
-
 .button-decorated::before {
   content: "";
   position: absolute;
@@ -980,6 +983,49 @@ body {
 
 .button-decorated:hover::before {
   transform: translateY(-50%) scaleY(1);
+}
+
+.button-decorated:active::before {
+  background-color: #ffcc33;
+}
+
+.tab-buttons {
+  padding: 9px 0 11px 0;
+  width: 160px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.tab-buttons-current {
+  position: relative;
+  color: #ffe17f;
+}
+
+.tab-buttons-current::before {
+  content: "";
+  position: absolute;
+  width: 280px;
+  background-color: #000000;
+  transform: translateY(-50%) scale(1);
+}
+
+.tabs-delivery-icon {
+  position: relative;
+}
+
+.tabs-delivery-icon::after {
+  content: "";
+  position: absolute;
+  top: 42px;
+  right: -242px;
+  width: 136px;
+  height: 164px;
+  background-image: url("../images/deliveryman-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 .button-decorated-show-more {
@@ -1114,6 +1160,18 @@ body {
 
 /* Список преимуществ */
 
+.advantages {
+  padding-bottom: 72px;
+  margin-bottom: 70px;
+  background: linear-gradient(#ffffff 0, #ffffff 80px, #f0f0f0 80px, #f0f0f0 100%);
+}
+
+.advantages-tab-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+}
+
 .advantages-wrapper {
   display: flex;
   width: 1160px;
@@ -1128,6 +1186,7 @@ body {
 }
 
 .advantages-description {
+  min-width: 452px;
   color: #444444;
 }
 
@@ -1186,6 +1245,7 @@ body {
   justify-content: center;
   width: 287px;
   min-height: 280px;
+  margin: 0;
   padding: 0;
   list-style-type: none;
 }
@@ -1201,11 +1261,13 @@ body {
 }
 
 .tabs-description-list {
+  margin: 0;
   display: flex;
   align-items: center;
   width: 694px;
   min-height: 174px;
   list-style-type: none;
+  padding: 13px 132px 64px 110px;
 }
 
 /* Блок "Связаться с нами" */

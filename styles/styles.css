@@ -194,7 +194,7 @@ body {
 }
 
 .catalog {
-  min-width: 423px;
+  min-width: 425px;
   flex-wrap: wrap;
   display: flex;
   gap: 20px;
@@ -336,8 +336,6 @@ body {
 
 .header-lists-wrapper {
   display: flex;
-  padding-top: 30px;
-  padding-bottom: 10px;
 
 }
 
@@ -551,7 +549,7 @@ body {
   color: #000000;
   border: none;
   background-color: inherit;
-  padding: 15px 70px 15px 0;
+  padding: 15px 67px 10px 0;
   cursor: pointer;
 
 }
@@ -576,7 +574,9 @@ body {
 }
 
 .catalog-toggler-wrapper:focus-within .subcatalog {
-  display: flex;
+  display: grid;
+  grid-template-columns: 222px 181px 222px;
+  gap: 10px 30px;
 }
 
 .subcatalog {

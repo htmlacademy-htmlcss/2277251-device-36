@@ -219,7 +219,7 @@ body {
 .header-navigation-wrapper {
   display: flex;
   flex-wrap: wrap;
-
+  margin-bottom: 20px;
 }
 
 .main-navigation {

@@ -256,6 +256,10 @@ body {
   left: 0;
 }
 
+.main-logo-link:focus-within {
+  outline: 2px solid #af4fff;
+}
+
 .login-link-button:focus-within {
   outline: 2px solid #af4fff;
   outline-offset: 2px;

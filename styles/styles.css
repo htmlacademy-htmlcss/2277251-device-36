@@ -173,15 +173,17 @@ body {
 }
 
 .button-upload-more {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 760px;
   height: 55px;
   border: 3px solid #e5e5e5;
   margin: 0 auto;
   margin-top: 62px;
   margin-bottom: 62px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  background-color: #ffffff;
 }
 
 
@@ -818,14 +820,6 @@ body {
   color: #444444;
 }
 
-.button-upload-more {
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  background-color: #ffffff;
-}
 
 /* Pagination */
 

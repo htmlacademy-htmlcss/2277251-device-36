@@ -241,7 +241,6 @@ body {
   position: relative;
   text-decoration: none;
   color: inherit;
-  padding-right: 10px;
   padding-left: 25px;
 }
 
@@ -255,6 +254,21 @@ body {
   height: 12px;
   top: 5px;
   left: 0;
+}
+
+.login-link-button:focus-within {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
+}
+
+.compare-button:focus-within {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
+}
+
+.cart-button:focus-within {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
 }
 
 .logout-link-button {
@@ -487,7 +501,7 @@ body {
   position: relative;
   text-decoration: none;
   color: #000000;
-  padding-right: 10px;
+  padding-right: 5px;
   padding-left: 25px;
 }
 

@@ -1547,6 +1547,43 @@ body {
 
 .footer-list {
   gap: 35px;
+  margin-bottom: 62px;
+}
+
+.footer-socials-list {
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-socials-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.footer-socials-link {
+  padding: 4px 13px;
+}
+
+.footer-socials-link:focus-within {
+  outline: 2px solid #af4fff;
+  outline-offset: 3px;;
+}
+
+.footer-socials-link-twitter {
+  display: flex;
+}
+
+.footer-socials-item:hover {
+  background: #FFC700;
+}
+.footer-socials-item:active .footer-socials-image {
+  opacity: 0.3;
 }
 
 .footer-logo {

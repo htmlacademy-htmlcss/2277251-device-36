@@ -1496,8 +1496,6 @@ body {
 
 .footer-index-container {
   display: flex;
-  padding-right: 60px;
-  padding-left: 60px;
   min-height: 321px;
 }
 
@@ -1523,7 +1521,7 @@ body {
 
 .footer-phone {
   margin-top: 150px;
-  margin-left: 86px;
+  margin-left: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1543,6 +1541,7 @@ body {
   justify-content: center;
   width: 444px;
   min-height: 123px;
+  margin-top: 100px;
 }
 
 .footer-list {

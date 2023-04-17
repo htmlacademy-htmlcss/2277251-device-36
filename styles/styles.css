@@ -609,7 +609,21 @@ body {
 }
 
 .breadcrumbs-item {
+  position: relative;
   padding-right: 36px;
+}
+
+.breadcrumbs-item:not(:last-child):after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 7px;
+  top: 12px;
+  right: 15px;
+  background-image: url("../images/breadcrumbs-grey-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.2;
 }
 
 .monopods-title {
@@ -736,6 +750,14 @@ body {
   background-image: url(../images/checkbox-tick.svg);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.input-radio:checked + .control-outline-radio::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #000000;
 }
 
 .input-checkbox:focus-visible + .control-outline,

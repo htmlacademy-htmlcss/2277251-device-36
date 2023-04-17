@@ -1028,7 +1028,9 @@ body {
   transform: translateY(-50%) scale(1);
 }
 
-.tabs-delivery-icon {
+.tabs-delivery-icon,
+.tabs-guarantee-icon,
+.tabs-credit-icon {
   position: relative;
 }
 
@@ -1039,10 +1041,33 @@ body {
   right: -242px;
   width: 136px;
   height: 164px;
-  background-image: url("../images/deliveryman-image.svg");
+  background-image: url("../images/tabs-deliveryman-image.svg");
   background-repeat: no-repeat;
   background-position: center;
+}
 
+.tabs-guarantee-icon::after {
+  content: "";
+  position: absolute;
+  top: 42px;
+  right: -242px;
+  width: 171px;
+  height: 195px;
+  background-image: url("../images/tabs-guarantee-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tabs-credit-icon::after {
+  content: "";
+  position: absolute;
+  top: 42px;
+  right: -242px;
+  width: 156px;
+  height: 188px;
+  background-image: url("../images/tabs-credit-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .button-decorated-show-more {
@@ -1194,16 +1219,18 @@ body {
   width: 1160px;
 }
 
-.tabs-description-list-item-guarantee {
+.tabs-description-item {
   display: none;
 }
 
-.tabs-description-list-item-credit {
-  display: none;
+.tabs-description-item-active {
+ display: flex;
+ flex-direction: column;
 }
+
 
 .advantages-description {
-  min-width: 452px;
+  min-width: 458px;
   color: #444444;
 }
 

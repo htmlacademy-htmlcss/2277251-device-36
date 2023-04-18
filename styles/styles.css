@@ -693,6 +693,11 @@ body {
   color: #000000;
 }
 
+.breadcrumbs-link:focus-within {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
+}
+
 /* Filter */
 .monopod-title-filter {
   font-family: "Raleway", sans-serif;

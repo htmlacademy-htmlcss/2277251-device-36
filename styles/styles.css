@@ -172,6 +172,16 @@ body {
   cursor: pointer;
 }
 
+.card-toggle-cheap-first:hover,
+.card-toggle-expensive-first:hover {
+  opacity: 0.5;
+}
+
+.card-toggle-cheap-first:active,
+.card-toggle-expensive-first:active {
+  opacity: 1;
+}
+
 .button-upload-more {
   width: 760px;
   height: 55px;
@@ -873,29 +883,67 @@ body {
   text-decoration: none;
 }
 
+.pagination-link:hover {
+  opacity: 1;
+}
+
+.pagination-link:active {
+  opacity: 0.1;
+}
+
+.pagination-link:focus-within {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
+}
+
 .pagination-current {
   opacity: 0.6;
 }
 
 .pagination-prev {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  cursor: pointer;
   min-width: 128px;
   font-family: "Raleway", sans-serif;
   line-height: 21px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  text-align: center;
+  text-decoration: none;
+  color: #000000;
 }
 
 .pagination-next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  cursor: pointer;
   min-width: 128px;
   font-family: "Raleway", sans-serif;
   line-height: 21px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #000000;
-  opacity: 1;
   text-decoration: none;
-  text-align: center;
+}
+
+.pagination-prev:hover,
+.pagination-next:hover {
+  background-color: #dcdcdc;
+}
+
+.pagination-prev:active,
+.pagination-next:active {
+  opacity: 0.3;
+}
+
+.pagination-prev:focus-within,
+.pagination-next:focus-within {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
 }
 
 .pagination-link {

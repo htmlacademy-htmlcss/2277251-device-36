@@ -1199,6 +1199,15 @@ body {
   padding-top: 190px;
 }
 
+.catalog-category-link:hover.catalog-category-link::before {
+  background-color:#ffc700;
+}
+
+.catalog-category-link:active {
+  opacity: 0.3;
+}
+
+
 .catalog-category-link:focus-within {
   outline: 2px solid #af4fff;
   outline-offset: 2px;;

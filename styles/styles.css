@@ -1330,8 +1330,18 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-color: rgba(220, 220, 220, 0.5);
+}
 
+.delivery-info-link:hover.delivery-info-link::before {
+  background-color: #ffc700;
+}
+.delivery-info-link:active {
+  opacity: 0.3;
+}
 
+.delivery-info-link:focus-within {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
 }
 
 /* Блок с табами */
@@ -1653,7 +1663,7 @@ body {
 
 .footer-socials-link:focus-within {
   outline: 2px solid #af4fff;
-  outline-offset: 3px;;
+  outline-offset: 3px;
 }
 
 .footer-socials-link-twitter {

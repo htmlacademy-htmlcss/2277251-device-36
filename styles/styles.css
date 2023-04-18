@@ -969,6 +969,10 @@ body {
   height: 40px;
 }
 
+.pagination-ellipsis {
+  padding: 0 12px;
+}
+
 /* Slider */
 .slider-product-title {
   margin-top: 0;

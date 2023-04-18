@@ -77,13 +77,13 @@ body {
   position: relative;
 }
 
-.new::before {
+.new::after {
   content: "NEW";
   position: absolute;
   width: 60px;
   height: 60px;
   top: 27px;
-  right: 27px;
+  left: 273px;
   border-radius: 50%;
   border: 2px solid rgba(0, 0, 0, 0.6);
   font-family: "Raleway", sans-serif;
@@ -95,6 +95,7 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.6);
+  transition: opacity 0.3s ease;
 }
 
 .monopod-products {
@@ -852,11 +853,99 @@ body {
 /* Item */
 .monopod-card {
   background-color: #ffffff;
+  position: relative;
+}
+
+.monopod-card-image-wrapper {
+  position: relative;
+  display: flex;
+}
+
+.monopod-card-image-wrapper::before {
+  content: "Подробнее";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 220px;
+  height: 8px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 8px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #ffe17f;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.monopod-card-image-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(240, 240, 240, 0.8);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+
+.monopod-card::before {
+  content: "Подробнее";
+  position: absolute;
+  top: 100px;
+  left: 75px;
+  width: 220px;
+  height: 8px;
+  color: #000000;
+  background-color: #ffe17f;
+
 }
 
 /* Link */
 .monopod-card-link {
   text-decoration: none;
+}
+
+.monopod-card-link:hover .monopod-card-image-wrapper::before,
+.monopod-card-link:hover .monopod-card-image-wrapper::after {
+  opacity: 1;
+}
+
+.monopod-card-link:hover .monopod-card-title {
+  opacity: 0.6;
+}
+
+.monopod-card-link:active .monopod-card-image-wrapper::before {
+  background-color: #ffc700;
+}
+
+.monopod-card-link:active .monopod-card-title,
+.monopod-card-link:active .monopod-card-price {
+  opacity: 0.3;
+}
+
+/* Метка NEW */
+.monopod-card-link.new:hover .monopod-card-price {
+  opacity: 0.6;
+}
+
+.monopod-card-link.new:hover::after {
+  opacity: 0.6;
+}
+
+.monopod-card-link.new:active .monopod-card-image-wrapper::before {
+  background-color: #ffc700;
+}
+
+.monopod-card-link.new:active .monopod-card-title,
+.monopod-card-link.new:active .monopod-card-price {
+  opacity: 0.6;
 }
 
 /* Title */
@@ -865,12 +954,14 @@ body {
   line-height: 20px;
   letter-spacing: -0.02em;
   color: #000000;
+  transition: opacity 0.3s ease;
 }
 
 /* Price */
 .monopod-card-price {
   line-height: 21px;
   color: #444444;
+  transition: opacity 0.3s ease;
 }
 
 

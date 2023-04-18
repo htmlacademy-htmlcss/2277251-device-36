@@ -1585,13 +1585,30 @@ body {
   width: 810px;
   min-height: 57px;
   background-color: inherit;
-
 }
 
 .newsletter-button {
   width: 253px;
   border: 3px solid #c4c4c4;
   cursor: pointer;
+}
+
+.newsletter-button:hover {
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.newsletter-button:active .button-subscribe-text {
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  opacity: 0.3;
+}
+
+.newsletter-button:focus-within {
+  outline: 2px solid #af4fff;
+  outline-offset: 3px;
 }
 
 .newsletter-additional-text {
@@ -1668,7 +1685,7 @@ body {
   bottom: 0;
   left: 0;
   background-image: url("../images/yellow-stick-image.svg");
-  /* background-position: left, bottom; */
+  background-position: center;
   background-repeat: no-repeat;
 }
 

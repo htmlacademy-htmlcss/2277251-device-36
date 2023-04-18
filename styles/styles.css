@@ -427,6 +427,16 @@ body {
   border: 2px solid #000000;
 }
 
+.slider-pagination-button:hover,
+.slider-pagination-button-current:hover {
+  opacity: 0.6;
+}
+
+.slider-pagination-button:active,
+.slider-pagination-button-current:active {
+  opacity: 0.3;
+}
+
 .slider-wrapper {
   margin-right: 40px;
   width: 560px;
@@ -917,6 +927,22 @@ body {
 
 .slider-prev {
   transform: rotate(180deg);
+}
+
+.slider-prev:hover,
+.slider-next:hover {
+  opacity: 0.6;
+}
+
+.slider-prev:active,
+.slider-next:active {
+  opacity: 0.3;
+}
+
+.slider-prev:focus-within,
+.slider-next:focus-within {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
 }
 
 .slider-product-description {

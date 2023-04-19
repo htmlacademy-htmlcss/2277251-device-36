@@ -321,6 +321,10 @@ body {
   outline: none;
 }
 
+.search-input:disabled {
+  opacity: 0.3;
+}
+
 .search-label {
   position: relative;
 }

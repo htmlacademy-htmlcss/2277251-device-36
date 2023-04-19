@@ -514,6 +514,17 @@ body {
   outline: none;
 }
 
+.search-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.search-button:active {
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.188);
+
+}
+
 .search-button:focus-visible::before {
   content: "";
   position: absolute;
@@ -523,6 +534,10 @@ body {
   height: 100%;
   outline: 2px solid #af4fff;
   outline-offset: 4px;
+}
+
+.search-button:disabled {
+  opacity: 0.3;
 }
 
 .search-form {

@@ -464,6 +464,11 @@ body {
   margin-bottom: 70px;
 }
 
+.slider-pagination-item {
+  display: flex;
+  align-self: center;
+}
+
 .slider-pagination-button {
   width: 16px;
   height: 16px;
@@ -482,14 +487,17 @@ body {
   border: 2px solid #000000;
 }
 
-.slider-pagination-button:hover,
-.slider-pagination-button-current:hover {
+.slider-pagination-button:hover {
   opacity: 0.6;
 }
 
-.slider-pagination-button:active,
-.slider-pagination-button-current:active {
+.slider-pagination-button:active {
   opacity: 0.3;
+}
+
+.slider-pagination-item:focus-within {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
 }
 
 .slider-wrapper {

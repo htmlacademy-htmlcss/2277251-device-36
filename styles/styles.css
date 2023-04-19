@@ -681,6 +681,10 @@ body {
   opacity: 0.2;
 }
 
+.monopods-container {
+  flex-direction: column;
+}
+
 .monopods-title {
   margin: 0;
   padding: 0;

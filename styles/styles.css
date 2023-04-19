@@ -854,6 +854,7 @@ body {
   flex-direction: column;
   width: 200px;
   min-height: 168px;
+  gap: 6px;
 }
 
 .monopod-filter-group {

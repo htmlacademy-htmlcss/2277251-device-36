@@ -787,6 +787,7 @@ body {
 
 .monopods-container {
   flex-direction: column;
+  padding: 0 60px 0 60px;
 }
 
 .monopods-title {

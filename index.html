@@ -12,7 +12,7 @@
   </head>
 
   <body>
-      <header class="main-header">
+    <header class="main-header">
         <a class="main-logo-link" href="#">
           <img class="main-logo" src="images/device-logo.svg" alt="Логотип Девайс.">
         </a>
@@ -113,10 +113,74 @@
         <h1 class="visually-hidden">Интернет-магазин «Девайс»</h1>
         <section class="slider">
           <h2 class="visually-hidden">Слайдер с товарами</h2>
-            <ul class="slider-list">
-              <li class="slider-page-1 slide-counter">
-              <div class="slider-picture-wrapper">
-                  <img class="slider-image" src="images/slider-1.png" alt="Фотография квадрокоптера с лазер-камерой." width="560"
+            <div class="container">
+              <ul class="slider-list">
+                <li class="slider-page-1 slide-counter">
+                <div class="slider-picture-wrapper">
+                    <img class="slider-image" src="images/slider-1.png" alt="Фотография квадрокоптера с лазер-камерой." width="560"
+                      height="560">
+
+                    <div class="slider-buttons-wrapper">
+                      <button class="slider-button slider-next" type="button">
+                        <span class="visually-hidden">Показать следующий товар</span>
+                      </button>
+                      <button class="slider-button slider-prev" type="button">
+                        <span class="visually-hidden">Показать предыдущий товар</span>
+                      </button>
+                    </div>
+                </div>
+
+                  <div class="slider-right-wrapper">
+                    <h3 class="slider-product-title">Порхает как бабочка,
+                      жалит как пчела!</h3>
+
+                    <p class="slider-product-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
+                      замаскированным под стандартную камеру.</p>
+
+                    <a class="button button-decorated-details" href="#">Подробнее</a>
+
+                    <dl class="characteristics">
+                      <dt class="range-of-flight-text">Дальность полета</dt>
+                      <dd class="range-of-flight">800 м</dd>
+
+                      <dt class="damage-radius-text">Радиус поражения</dt>
+                      <dd class="damage-radius">50 м</dd>
+                    </dl>
+                  </div>
+                </li>
+                <li class="slider-page-2 slide-counter">
+                  <img class="item-picture" src="images/slider-2.png" width="560" height="560" alt="Фотография фитнес-браслета.">
+
+                  <div class="slider-buttons-wrapper">
+                    <button class="slider-button slider-next" type="button">
+                      <span class="visually-hidden">Показать следующий товар</span>
+                    </button>
+                    <button class="slider-button slider-prev" type="button">
+                      <span class="visually-hidden">Показать предыдущий товар</span>
+                    </button>
+                  </div>
+
+                  <div class="slider-right-wrapper">
+
+                    <h3 class="slider-product-title">Худеем правильно!</h3>
+
+                    <p class="slider-product-description">
+                      Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+
+                    <a class="button button-decorated-details" href="#">Подробнее</a>
+
+                    <dl class="bracelete-characteristics">
+                      <dt>
+                        Без подзарядки
+                      </dt>
+                      <dd class="range-of-working">
+                        48 часов
+                      </dd>
+                    </dl>
+                  </div>
+                </li>
+                <li class="slider-page-3 slide-counter">
+                  <img class="slider-image" src="images/slider-3.png" alt="Фотография селфи палки." width="560"
                     height="560">
 
                   <div class="slider-buttons-wrapper">
@@ -127,93 +191,31 @@
                       <span class="visually-hidden">Показать предыдущий товар</span>
                     </button>
                   </div>
-              </div>
 
-                <div class="slider-right-wrapper">
-                  <h3 class="slider-product-title">Порхает как бабочка,
-                    жалит как пчела!</h3>
+                  <div class="slider-right-wrapper">
+                    <h3 class="slider-product-title">Делай селфи,
+                      как Бен Стиллер! </h3>
 
-                  <p class="slider-product-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
-                    замаскированным под стандартную камеру.</p>
+                    <p class="slider-product-description">Самая длинная палка для селфи доступна в нашем магазине.
+                    Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.
+                    </p>
 
-                  <a class="button button-decorated-details" href="#">Подробнее</a>
+                    <a class="button button-decorated-details" href="#">Подробнее</a>
 
-                  <dl class="characteristics">
-                    <dt class="range-of-flight-text">Дальность полета</dt>
-                    <dd class="range-of-flight">800 м</dd>
+                    <dl class="characteristics">
+                      <dt class="range-of-flight-text">Длина палки</dt>
+                      <dd class="range-of-flight">8,5 м</dd>
 
-                    <dt class="damage-radius-text">Радиус поражения</dt>
-                    <dd class="damage-radius">50 м</dd>
-                  </dl>
-                </div>
-              </li>
-              <li class="slider-page-2 slide-counter">
-                <img class="item-picture" src="images/slider-2.png" width="560" height="560" alt="Фотография фитнес-браслета.">
+                      <dt class="damage-radius-text">Вес палки</dt>
+                      <dd class="damage-radius">5 кг</dd>
 
-                <div class="slider-buttons-wrapper">
-                  <button class="slider-button slider-next" type="button">
-                    <span class="visually-hidden">Показать следующий товар</span>
-                  </button>
-                  <button class="slider-button slider-prev" type="button">
-                    <span class="visually-hidden">Показать предыдущий товар</span>
-                  </button>
-                </div>
-
-                <div class="slider-right-wrapper">
-
-                  <h3 class="slider-product-title">Худеем правильно!</h3>
-
-                  <p class="slider-product-description">
-                    Мотивирующие фитнес-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
-
-                  <a class="button button-decorated-details" href="#">Подробнее</a>
-
-                  <dl class="bracelete-characteristics">
-                    <dt>
-                      Без подзарядки
-                    </dt>
-                    <dd class="range-of-working">
-                      48 часов
-                    </dd>
-                  </dl>
-                </div>
-              </li>
-              <li class="slider-page-3 slide-counter">
-                <img class="slider-image" src="images/slider-3.png" alt="Фотография селфи палки." width="560"
-                  height="560">
-
-                <div class="slider-buttons-wrapper">
-                  <button class="slider-button slider-next" type="button">
-                    <span class="visually-hidden">Показать следующий товар</span>
-                  </button>
-                  <button class="slider-button slider-prev" type="button">
-                    <span class="visually-hidden">Показать предыдущий товар</span>
-                  </button>
-                </div>
-
-                <div class="slider-right-wrapper">
-                  <h3 class="slider-product-title">Делай селфи,
-                    как Бен Стиллер! </h3>
-
-                  <p class="slider-product-description">Самая длинная палка для селфи доступна в нашем магазине.
-                  Восемь (Восемь, Карл!) метров длиной и весом всего 5 кг.
-                  </p>
-
-                  <a class="button button-decorated-details" href="#">Подробнее</a>
-
-                  <dl class="characteristics">
-                    <dt class="range-of-flight-text">Длина палки</dt>
-                    <dd class="range-of-flight">8,5 м</dd>
-
-                    <dt class="damage-radius-text">Вес палки</dt>
-                    <dd class="damage-radius">5 кг</dd>
-
-                    <dt class="damage-radius-text">Материал</dt>
-                    <dd class="damage-radius">Карбон</dd>
-                  </dl>
-                </div>
-              </li>
-            </ul>
+                      <dt class="damage-radius-text">Материал</dt>
+                      <dd class="damage-radius">Карбон</dd>
+                    </dl>
+                  </div>
+                </li>
+              </ul>
+            </div>
         </section>
 
         <ol class="slider-pagination">
@@ -239,45 +241,47 @@
 
         <section class="catalog-category">
           <h2 class="visually-hidden">Список категорий каталога</h2>
-          <ul class="catalog-category-list reset-list">
-            <li class="catalog-category-item">
-              <a class="catalog-category-link catalog-category-link-vr" href="#">
-                Виртуальная
-                реальность
-              </a>
-            </li>
-            <li class="catalog-category-item">
-              <a class="catalog-category-link catalog-category-link-monopods" href="monopods.html">
-                Моноподы
-                для&nbsp;селфи
-              </a>
-            </li>
-            <li class="catalog-category-item">
-              <a class="catalog-category-link catalog-category-link-action-cameras" href="#">
-                Экшн-камеры
-              </a>
-            </li>
-            <li class="catalog-category-item">
-              <a class="catalog-category-link catalog-category-link-fitness-bracelets" href="#">
-                Фитнес-браслеты
-              </a>
-            </li>
-            <li class="catalog-category-item">
-              <a class="catalog-category-link catalog-category-link-smart-watches" href="#">
-                Умные часы
-              </a>
-            </li>
-            <li class="catalog-category-item">
-              <a class="catalog-category-link catalog-category-link-quadcopters" href="#">
-                Квадрокоптеры
-              </a>
-            </li>
-          </ul>
+          <div class="container">
+            <ul class="catalog-category-list reset-list">
+              <li class="catalog-category-item">
+                <a class="catalog-category-link catalog-category-link-vr" href="#">
+                  Виртуальная
+                  реальность
+                </a>
+              </li>
+              <li class="catalog-category-item">
+                <a class="catalog-category-link catalog-category-link-monopods" href="monopods.html">
+                  Моноподы
+                  для&nbsp;селфи
+                </a>
+              </li>
+              <li class="catalog-category-item">
+                <a class="catalog-category-link catalog-category-link-action-cameras" href="#">
+                  Экшн-камеры
+                </a>
+              </li>
+              <li class="catalog-category-item">
+                <a class="catalog-category-link catalog-category-link-fitness-bracelets" href="#">
+                  Фитнес-браслеты
+                </a>
+              </li>
+              <li class="catalog-category-item">
+                <a class="catalog-category-link catalog-category-link-smart-watches" href="#">
+                  Умные часы
+                </a>
+              </li>
+              <li class="catalog-category-item">
+                <a class="catalog-category-link catalog-category-link-quadcopters" href="#">
+                  Квадрокоптеры
+                </a>
+              </li>
+            </ul>
+          </div>
         </section>
 
         <section class="advantages">
           <h2 class="visually-hidden">Преимущества</h2>
-          <div class="advantages-wrapper">
+          <div class="container">
             <ul class="tabs-buttons-list">
               <li class="tabs-buttons-list-item">
                 <button class="button tab-buttons tab-buttons-current button-decorated" type="button">
@@ -318,14 +322,13 @@
           </div>
         </section>
 
-        <aside class="delivery-block">
+        <div class="delivery-block container">
           <a class="delivery-info-link" href="#">
             Доставим редкий товар под заказ
           </a>
-        </aside>
+        </div>
 
-        <section class="contact">
-          <h2 class="visually-hidden">Связаться с нами</h2>
+        <div class="contact container">
           <section class="about-us-wrapper">
             <h2 class="contact-title">О нас</h2>
 
@@ -376,32 +379,32 @@
               Напишите нам
             </a>
           </section>
-        </section>
+        </div>
 
         <section class="newsletter">
-          <div class="newsletter-wrapper">
+          <div class="newsletter-wrapper container">
             <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
 
             <p class="newsletter-description">Еженедельный дайджест с обзорами новинок,
               длительными тест-драйвами, распаковками, а также акции, спецпредложения и вот это вот всё.</p>
           </div>
-            <div class="newsletter-form-wrapper">
-              <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-                <label class="field-label">
-                  <span class="visually-hidden">Ваш e-mail.</span>
-                  <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" required>
-                </label>
-                <button class="button newsletter-button" type="submit">
-                  <span class="button-subscribe-text">Подписаться</span>
-                </button>
-              </form>
-              <span class="newsletter-additional-text">Это бесплатно</span>
-            </div>
+          <div class="newsletter-form-wrapper container">
+            <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+              <label class="field-label">
+                <span class="visually-hidden">Ваш e-mail.</span>
+                <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" required>
+              </label>
+              <button class="button newsletter-button" type="submit">
+                <span class="button-subscribe-text">Подписаться</span>
+              </button>
+            </form>
+            <span class="newsletter-additional-text">Это бесплатно</span>
+          </div>
         </section>
       </main>
 
       <footer class="footer-index">
-        <div class="footer-index-container">
+        <div class="container">
           <section class="footer-address">
             <h2 class="visually-hidden">Адрес</h2>
             <a class="footer-logo-link" href="#">

@@ -819,6 +819,7 @@ body {
   line-height: 19px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
+  margin-bottom: 60px;
 }
 
 .monopod-title-sorting {
@@ -831,9 +832,21 @@ body {
 }
 
 .monopod-filter-title {
+  position: relative;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: -0.02em;
+  margin-bottom: 20px;
+}
+
+.monopod-filter-title::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  top: -12px;
+  left: 0;
+  background-color: #000000;
 }
 
 .monopod-filter-list {
@@ -845,6 +858,8 @@ body {
 
 .monopod-filter-group {
   border: none;
+  padding: 0;
+  margin-bottom: 35px;
 }
 
 .filter-wrapper {

@@ -261,11 +261,28 @@ body {
   margin-left: auto;
 }
 
+.main-logo-link:focus-within {
+  outline: 2px solid #af4fff;
+}
+
 .login-link-button {
   position: relative;
   text-decoration: none;
   color: inherit;
   padding-left: 25px;
+}
+
+.login-link-button:hover {
+  opacity: 0.6;
+}
+
+.login-link-button:active {
+  opacity: 0.3;
+}
+
+.login-link-button:focus-within {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
 }
 
 .login-link-button::before {
@@ -280,18 +297,25 @@ body {
   left: 0;
 }
 
-.main-logo-link:focus-within {
-  outline: 2px solid #af4fff;
+.compare-button:hover {
+  opacity: 0.6;
 }
 
-.login-link-button:focus-within {
-  outline: 2px solid #af4fff;
-  outline-offset: 2px;
+.compare-button:active {
+  opacity: 0.3;
 }
 
 .compare-button:focus-within {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
+}
+
+.cart-button:hover {
+  opacity: 0.6;
+}
+
+.cart-button:active {
+  opacity: 0.3;
 }
 
 .cart-button:focus-within {
@@ -655,6 +679,27 @@ body {
   background-repeat: no-repeat;
 }
 
+.catalog-toggler-button:hover::before {
+  opacity: 1;
+}
+
+.catalog-toggler-button:active::before {
+  opacity: 1;
+}
+
+.catalog-toggler-button:active::before {
+  background-image: url("../images/minus-image.svg");
+}
+
+.catalog-toggler-wrapper:focus-within .catalog-toggler-button::before {
+  background-image: url("../images/minus-image.svg");
+}
+
+.catalog-toggler-button:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 3px;
+}
+
 .catalog-toggler-wrapper {
   min-width: 290px;
 }
@@ -686,6 +731,19 @@ body {
   color: #000000;
 }
 
+.subcatalog-item-link:hover {
+  opacity: 0.6;
+}
+
+.subcatalog-item-link:active {
+  opacity: 0.3;
+}
+
+.subcatalog-item-link:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
+}
+
 .catalog-item-link {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -694,6 +752,19 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   color: #000000;
+}
+
+.catalog-item-link:hover {
+  opacity: 0.6;
+}
+
+.catalog-item-link:active {
+  opacity: 0.3;
+}
+
+.catalog-item-link:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 1px;
 }
 
 .breadcrumbs-item {

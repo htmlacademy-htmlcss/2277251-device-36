@@ -551,19 +551,21 @@
                     Что нужно привезти:
                     <input class="order-data-input" type="text" placeholder="В свободной форме">
                   </label>
-                  <label class="delivery-form-label">
-                    Количество:
-                    <div class="quantity-buttons-wrapper">
-                      <button class="minus">
-                        <span class="visually-hidden">Уменьшить количество</span>
-                      </button>
-                      <input type="number">
-                      <button class="plus">
-                        <span class="visually-hidden">Увеличить количество</span>
-                      </button>
-                    </div>
-                  </label>
-                </div>
+                  <div class="quantity-buttons-wrapper">
+                    <label class="delivery-form-label" for="order-quantity">
+                      Количество:
+                    </label>
+                      <div class="quantity-input-wrapper">
+                        <button class="minus">
+                          <span class="visually-hidden">Уменьшить количество</span>
+                        </button>
+                        <input class="quantity-input" type="number" name="order-quantity" id="order-quantity" value="1">
+                        <button class="plus">
+                          <span class="visually-hidden">Увеличить количество</span>
+                        </button>
+                      </div>
+                  </div>
+              </div>
 
                 <button class="button send-button button-decorated" type="submit">
                   Отправить

@@ -2072,3 +2072,49 @@ body {
   border: none;
   padding: 20px;
 }
+
+.order-data-wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+.quantity-buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.quantity-input-wrapper {
+  display: flex;
+}
+
+.minus {
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-image: url("../images/minus-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.quantity-input {
+  width: 60px;
+  height: 60px;
+  background-color: #f0f0f0;
+  border: none;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.plus {
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-image: url("../images/plus-image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}

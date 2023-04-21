@@ -524,10 +524,59 @@
               </svg>
             </a>
           </section>
-
-
         </div>
       </footer>
+
+      <div class="modal-container">
+        <div class="modal modal-delivery">
+          <button class="modal-close-button">
+            <span class="visually-hidden">Закрыть</span>
+          </button>
+          <section class="modal-content">
+            <h2 class="modal-title">Доставка под заказ</h2>
+            <form class="delivery-form" action="https://echo.htmlacademy.ru/" method="post">
+              <div class="delivery-form-wrapper">
+                <div class="user-data-wrapper">
+                  <label class="delivery-form-label">
+                    Ваше имя:
+                    <input class="user-data-input" type="text" placeholder="Введите имя">
+                  </label>
+                  <label class="delivery-form-label">
+                    Ваш e-mail:
+                    <input class="user-data-input" type="email" placeholder="Введите email" value="почта">
+                  </label>
+                </div>
+                <div class="order-data-wrapper">
+                  <label class="delivery-form-label">
+                    Что нужно привезти:
+                    <input class="order-data-input" type="text" placeholder="В свободной форме">
+                  </label>
+                  <label class="delivery-form-label">
+                    Количество:
+                    <div class="quantity-buttons-wrapper">
+                      <button class="minus">
+                        <span class="visually-hidden">Уменьшить количество</span>
+                      </button>
+                      <input type="number">
+                      <button class="plus">
+                        <span class="visually-hidden">Увеличить количество</span>
+                      </button>
+                    </div>
+                  </label>
+                </div>
+
+                <button class="button send-button button-decorated" type="submit">
+                  Отправить
+                </button>
+              </div>
+
+
+            </form>
+          </section>
+
+        </div>
+
+      </div>
 
 
   <script src="./js/index.js"></script>

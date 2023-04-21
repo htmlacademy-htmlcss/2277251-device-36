@@ -129,21 +129,17 @@
               <h2 class="monopod-title-filter">фильтр:</h2>
               <fieldset class="monopod-filter-group">
                 <legend class="monopod-filter-title">Стоимость</legend>
-                <div class="range">
-                  <button class="range-toggle toggle-min" type="button">
-                    <span class="visually-hidden">Изменить минимальную цену.</span>
-                  </button>
-                  <button class="range-toggle toggle-max" type="button">
-                    <span class="visually-hidden">Изменить максимальную цену.</span>
-                  </button>
-                </div>
-                <div class="range-wrapper-inputs">
-                  <label class="monopod-filter-label">
-                    <input class="range-input" type="number" name="min-price" placeholder="от 0">
-                  </label>
-                  <label class="monopod-filter-label">
-                    <input class="range-input" type="number" name="max-price" placeholder="до 5000">
-                  </label>
+                <div class="range-wrapper">
+                  <div class="range">
+                    <button class="range-toggle toggle-min" type="button">
+                      <span class="visually-hidden">Изменить минимальную цену.</span>
+                      <span class="range-toggle-description" tabindex="0">от 0</span>
+                    </button>
+                    <button class="range-toggle toggle-max" type="button">
+                      <span class="visually-hidden">Изменить максимальную цену.</span>
+                      <span class="range-toggle-description" tabindex="0">до 5000</span>
+                    </button>
+                  </div>
                 </div>
               </fieldset>
 

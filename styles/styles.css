@@ -821,6 +821,80 @@ body {
 }
 
 /* Filter */
+.range-wrapper {
+  position: relative;
+  width: 200px;
+  height: 2px;
+  background-color: #dcdcdc;
+  margin-bottom: 30px;
+}
+
+.range {
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  background-color: #000000;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #ebebeb;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+}
+
+.toggle-min {
+  top: -8px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
+}
+
+.range-toggle-description {
+  position: absolute;
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  top: 20px;
+  left: -20px;
+  width: 55px;
+  height: 18px;
+  opacity: 0.3;
+}
+
+.range-toggle-description:focus-within {
+  outline: 2px solid #af4fff;
+  outline-offset: 1px;
+  opacity: 1;
+}
+
+.range-toggle:hover {
+  border: 2px solid rgba(0, 0, 0, 0.314);
+}
+
+.range-toggle:active {
+  background-color: #000000;
+}
+
+.range-toggle:focus-visible::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  outline: 2px solid #af4fff;
+  outline-offset: 4px;
+}
+
 .monopod-title-filter {
   font-family: "Raleway", sans-serif;
   font-size: 16px;

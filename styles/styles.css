@@ -368,6 +368,11 @@ body {
   background-color: transparent;
 }
 
+.popover-item-close-button:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
+}
+
 .cart-items-list {
   list-style-type: none;
   margin: 0;
@@ -376,12 +381,20 @@ body {
 
 .cart-item {
   position: relative;
+  padding: 20px;
 }
 
 .cart-item-title {
   margin: 0;
   padding: 0;
-  width: 151px;
+}
+
+.cart-item-title-first {
+  max-width: 121px;
+}
+
+.cart-item-title-second {
+  max-width: 151px;
 }
 
 .cart-item-link {
@@ -389,8 +402,20 @@ body {
   text-decoration: none;
   color: #ffffff;
   gap: 23px;
-  padding: 20px;
-  max-width: 170px;
+  max-width: 213px;
+}
+
+.cart-item-link:hover {
+  opacity: 0.6;
+}
+
+.cart-item-link:active {
+  opacity: 0.3;
+}
+
+.cart-item-link:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
 }
 
 .total-order-amount {
@@ -446,6 +471,19 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.popover-cart-button:hover {
+  background-color: #ffe17f;
+}
+
+.popover-cart-button:active {
+  color: rgba(0, 0, 0, 0.188);
+}
+
+.popover-cart-button:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
 }
 
 .right-navigation-item-cart:focus-within .popover-cart {
@@ -755,7 +793,6 @@ body {
   position: relative;
   text-decoration: none;
   color: #000000;
-  padding-right: 8px;
   padding-left: 45px;
 }
 

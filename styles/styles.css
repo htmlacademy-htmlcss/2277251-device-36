@@ -695,7 +695,7 @@ body {
   width: 1160px;
   margin: 0 auto;
   color: #000000;
-  padding: 20px 60px 0 60px;
+  padding: 20px 60px 20px 60px;
   display: flex;
   flex-direction: column;
   background: linear-gradient(#ffffff 0, #ffffff 40px, #ffe17f 40px, #ffe17f 100%);

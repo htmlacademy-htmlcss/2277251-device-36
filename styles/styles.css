@@ -1291,6 +1291,7 @@ body {
 /* Link */
 .monopod-card-link {
   text-decoration: none;
+  outline: none;
 }
 
 .monopod-card-link:hover .monopod-card-image-wrapper::before,
@@ -1309,6 +1310,11 @@ body {
 .monopod-card-link:active .monopod-card-title,
 .monopod-card-link:active .monopod-card-price {
   opacity: 0.3;
+}
+
+.monopod-card:focus-within {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
 }
 
 /* Метка NEW */

@@ -2311,7 +2311,7 @@ body {
   padding: 72px 80px 82px 80px;
   background-color: #ffffff;
   border: 10px solid #000000;
-  box-shadow: 0px 10px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .modal-delivery {
@@ -2365,6 +2365,18 @@ body {
   background-color: #f0f0f0;
   border: none;
   padding: 20px;
+}
+
+.name-input {
+  background-image: url("../images/modal-name-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 325px 24px;
+}
+
+.email-input {
+  background-image: url("../images/modal-email-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 325px 24px;
 }
 
 .order-data-input {

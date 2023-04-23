@@ -241,6 +241,26 @@ body {
   margin-bottom: 20px;
 }
 
+.footer-logo-link {
+  display: block;
+  width: 145px;
+}
+
+.main-logo-link:hover,
+.footer-logo-link:hover {
+  opacity: 0.6;
+}
+
+.main-logo-link:active,
+.footer-logo-link:active {
+  opacity: 0.3;
+}
+
+.main-logo-link:focus-within,
+.footer-logo-link:focus-within {
+  outline: 2px solid #af4fff;
+}
+
 .header-navigation-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -273,10 +293,6 @@ body {
 
 .right-navigation-item-cart {
   position: relative;
-}
-
-.main-logo-link:focus-within {
-  outline: 2px solid #af4fff;
 }
 
 .login-link-button {
@@ -1514,13 +1530,18 @@ body {
   background-color: transparent;
 }
 
+.button:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;;
+}
+
 .button-decorated {
   max-width: 260px;
   position: relative;
   z-index: 1;
   padding: 16px 25px;
   text-align: center;
-    transition: flex-grow 0.3s ease, color 0.3s ease, padding-left 0.3s ease;
+  transition: flex-grow 0.3s ease, color 0.3s ease, padding-left 0.3s ease;
 }
 
 .button-decorated-details {

@@ -601,9 +601,23 @@
                     <input class="order-data-input" type="text" placeholder="В свободной форме">
                   </label>
                   <div class="quantity-buttons-wrapper">
-                    <label class="delivery-form-label" for="order-quantity">
-                      Количество:
-                    </label>
+                    <span class="delivery-form-label delivery-form-label-icon">
+                      <label class="delivery-form-label" for="order-quantity">
+                        Количество:
+                      </label>
+                      <span class="tooltip">
+                        <button class="tooltip-toggle" aria-labelledby="tooltip-label-date">
+                          <svg class="tooltip-icon" xmlns="http://www.w3.org/2000/svg" width="4" height="12"
+                           fill="none" viewBox="0 0 4 12">
+                           <path fill="#000" d="M3 0H1v2h2V0ZM3 4H1v8h2V4Z"/>
+                          </svg>
+                        </button>
+                        <span class="tooltip-text" role="tooltip" id="tooltip-label-date">
+                          Постараемся найти, сколько нужно. Привезём сколько получится по требованиям
+                          к&nbsp;провозу багажа.
+                        </span>
+                      </span>
+                    </span>
                       <div class="quantity-input-wrapper">
                         <button class="minus">
                           <span class="visually-hidden">Уменьшить количество</span>
@@ -614,7 +628,7 @@
                         </button>
                       </div>
                   </div>
-              </div>
+                </div>
 
                 <button class="button send-button button-decorated" type="submit">
                   Отправить
@@ -626,7 +640,6 @@
           </section>
 
         </div>
-
       </div>
 
 

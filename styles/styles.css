@@ -2425,6 +2425,11 @@ body {
   line-height: 20px;
 }
 
+.quantity-input::-webkit-outer-spin-button,
+.quantity-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
 .plus {
   width: 60px;
   height: 60px;

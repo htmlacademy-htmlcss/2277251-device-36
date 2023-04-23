@@ -2302,7 +2302,7 @@ body {
   width: 100%;
   height: 100%;
   background-color:rgba(240, 240, 240, 0.9);
-  /* display: none; */
+  display: none;
 }
 
 .modal {
@@ -2331,6 +2331,19 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+}
+
+.modal-close-button:hover {
+  opacity: 0.6;
+}
+
+.modal-close-button:active {
+  opacity: 0.3;
+}
+
+.modal-close-button:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
 }
 
 .modal-title {
@@ -2367,6 +2380,16 @@ body {
   padding: 20px;
 }
 
+.user-data-input:hover,
+.user-data-input:active {
+  background-color: #dcdcdc;
+}
+
+.user-data-input:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
+}
+
 .name-input {
   background-image: url("../images/modal-name-icon.svg");
   background-repeat: no-repeat;
@@ -2386,6 +2409,16 @@ body {
   background-color: #f0f0f0;
   border: none;
   padding: 20px;
+}
+
+.order-data-input:hover,
+.order-data-input:active {
+  background-color: #dcdcdc;
+}
+
+.order-data-input:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
 }
 
 .order-data-wrapper {
@@ -2425,6 +2458,17 @@ body {
   line-height: 20px;
 }
 
+.quantity-input:hover,
+.quantity-input:active {
+  opacity: 0.8;
+}
+
+.quantity-input:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
+  z-index: 1;
+}
+
 .quantity-input::-webkit-outer-spin-button,
 .quantity-input::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -2439,6 +2483,32 @@ body {
   background-position: center;
   cursor: pointer;
 }
+
+.minus:hover,
+.plus:hover {
+  background-color: #ebebeb;
+  opacity: 0.6;
+}
+
+.minus:active,
+.plus:active {
+  background-color: #f0f0f0;
+}
+
+.minus:focus-visible,
+.plus:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
+  z-index: 1;
+}
+
+.minus:disabled,
+.plus:disabled {
+  background-color: #f0f0f0;
+  opacity: 0.3;
+}
+
+
 
 /* Tooltip */
 

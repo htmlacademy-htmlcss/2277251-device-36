@@ -2302,7 +2302,7 @@ body {
   width: 100%;
   height: 100%;
   background-color:rgba(240, 240, 240, 0.9);
-  display: none;
+  /* display: none; */
 }
 
 .modal {
@@ -2433,4 +2433,74 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
+}
+
+/* Tooltip */
+
+.tooltip {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  margin-top: -2px;
+  margin-left: 121px;
+}
+
+.tooltip-toggle {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: #ffe17f;
+  border-radius: 15px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+
+}
+
+.tooltip-icon {
+  width: 4px;
+  height: 12px;
+  color: #000000;
+}
+
+.tooltip-toggle:hover .tooltip-icon {
+  opacity: 0.6;
+}
+
+.tooltip-text {
+  position: absolute;
+  top: 36px;
+  left: 21px;
+  transform: translateX(-80%);
+  margin-bottom: 10px;
+  width: 200px;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 19px;
+  box-shadow: 0 10px 0 rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.tooltip-toggle:hover + .tooltip-text,
+.tooltip-toggle:focus + .tooltip-text {
+  display: block;
+}
+
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  background-image: url("../images/popover-arrow.svg");
+  width: 14px;
+  height: 6px;
+  bottom: 100%;
+  right: 41px;
+}
+
+.delivery-form-label-icon {
+  position: relative;
+  padding-right: 26px;
 }

@@ -269,7 +269,7 @@ body {
 .header-navigation-wrapper {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 26px;
 }
 
 .main-navigation {
@@ -901,28 +901,38 @@ body {
 }
 
 .catalog-toggler-wrapper {
+  position: relative;
   min-width: 290px;
 }
 
-.catalog-toggler-wrapper:focus-within .subcatalog {
+.catalog-toggler-menu {
+  position: absolute;
+  top: 50px;
+  left: -60px;
+  flex-wrap: wrap;
+  width: 1160px;
+  min-height: 192px;
+  padding: 10px 60px 10px 60px;
+  z-index: 2;
+  background-color: #ffe17f;
+  display: none;
+}
+
+.catalog-toggler-wrapper:focus-within .catalog-toggler-menu {
   display: grid;
   grid-template-columns: 222px 181px 222px;
   gap: 10px 30px;
 }
 
 .subcatalog {
-  display: none;
-  padding-top: 33px;
   gap: 30px;
   z-index: 1;
+  flex-direction: column;
 }
 
 .subcatalog-item {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
-
 
 .subcatalog-item-link {
   font-size: 16px;

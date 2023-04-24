@@ -191,7 +191,7 @@ body {
 
 .button-upload-more {
   width: 760px;
-  height: 55px;
+  min-height: 55px;
   border: 3px solid #e5e5e5;
   margin: 0 auto;
   margin-top: 62px;
@@ -290,6 +290,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
   margin: 0;
   padding: 0;
@@ -984,6 +985,10 @@ body {
   outline-offset: 1px;
 }
 
+.breadcrumbs-list {
+  flex-wrap: wrap;
+}
+
 .breadcrumbs-item {
   position: relative;
   padding-right: 36px;
@@ -1431,6 +1436,12 @@ body {
   margin-bottom: 78px;
 }
 
+.pagination-list {
+  padding-right: 50px;
+  padding-left: 50px;
+  flex-wrap: wrap;
+}
+
 .pagination-item {
   width: 40px;
   height: 40px;
@@ -1814,6 +1825,7 @@ body {
 .catalog-category-list {
   list-style-type: none;
   gap: 40px;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   margin-bottom: 70px;
@@ -2230,6 +2242,23 @@ body {
   color: #ffffff;
 }
 
+.footer-contacts-phone:hover,
+.contacts-phone:hover {
+  color: #ffc700;
+}
+
+.footer-contacts-phone:active,
+.contacts-phone:active {
+  color: #ffc700;
+  opacity: 0.3;
+}
+
+.footer-contacts-phone:focus-visible,
+.contacts-phone:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
+}
+
 .footer-index-container {
   display: flex;
   min-height: 321px;
@@ -2238,7 +2267,7 @@ body {
 .footer-address {
   position: relative;
   width: 234px;
-  height: 182px;
+  min-height: 182px;
   margin-top: 76px;
   margin-right: 124px;
 }
@@ -2281,6 +2310,8 @@ body {
 }
 
 .footer-list {
+  width: 456px;
+  flex-wrap: wrap;
   gap: 35px;
   margin-bottom: 62px;
 }
@@ -2308,10 +2339,6 @@ body {
 .footer-socials-link:focus-within {
   outline: 2px solid #af4fff;
   outline-offset: 3px;
-}
-
-.footer-socials-link-twitter {
-  display: flex;
 }
 
 .footer-socials-item:hover {

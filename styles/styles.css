@@ -2234,6 +2234,22 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
+  display: block;
+  width: 125px;
+}
+
+.footer-list-link:hover {
+  color: #ffc700;
+}
+
+.footer-list-link:active {
+  color: #ffc700;
+  opacity: 0.3;
+}
+
+.footer-list-link:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
 }
 
 .footer-contacts-phone {
@@ -2319,7 +2335,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 444px;
+  width: 456px;
   min-height: 123px;
   margin-top: 142px;
 }

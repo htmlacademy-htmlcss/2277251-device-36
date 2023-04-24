@@ -2299,6 +2299,21 @@ body {
   align-self: self-end;
 }
 
+.logo-html-academy:hover .html-academy-image {
+  fill: #ffffff;
+}
+
+.logo-html-academy:active .html-academy-image {
+  fill: #ffffff;
+  opacity: 0.3;
+}
+
+.logo-html-academy:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
+}
+
+
 .footer-lists {
   display: flex;
   flex-direction: column;

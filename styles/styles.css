@@ -1026,55 +1026,82 @@ body {
 
 /* Filter */
 .range-wrapper {
+  display: flex;
   position: relative;
   width: 200px;
-  height: 2px;
-  background-color: #dcdcdc;
+  z-index: 1;
   margin-bottom: 30px;
 }
 
-.range {
+.range-toggle-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.range-wrapper::before {
+  content: "";
   position: absolute;
-  width: 120px;
+  width: 100%;
+  height: 2px;
+  background-color: #dcdcdc;
+  top: 8px;
+  left: 0;
+  z-index: -1;
+}
+
+.range-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 119px;
   height: 2px;
   background-color: #000000;
+  top: 8px;
+  left: 0;
+  z-index: -1;
 }
 
 .range-toggle {
-  position: absolute;
+  position: relative;
   width: 18px;
   height: 18px;
   background-color: #ebebeb;
   border: 2px solid #000000;
   border-radius: 50%;
-  outline: none;
   cursor: pointer;
-}
-
-.toggle-min {
-  top: -8px;
-  left: -10px;
-}
-
-.toggle-max {
-  top: -8px;
-  right: -10px;
 }
 
 .range-toggle-description {
   position: absolute;
+  top: 20px;
   font-family: "Rubik", sans-serif;
   font-size: 14px;
   line-height: 20px;
-  text-align: center;
-  top: 20px;
-  left: -20px;
-  width: 55px;
-  height: 18px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.range-toggle-description:placeholder-shown {
   opacity: 0.3;
 }
 
-.range-toggle-description:focus-within {
+.min-price .range-toggle-description {
+  width: 30px;
+}
+
+.max-price .range-toggle-description {
+  width: 55px;
+}
+
+.min-price {
+  transform: translateX(-10px);
+}
+
+.max-price {
+  transform: translateX(90px);
+}
+
+.range-toggle-description:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 1px;
   opacity: 1;

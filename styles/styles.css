@@ -708,6 +708,10 @@ body {
   background: linear-gradient(#ffffff 0, #ffffff 40px, #ffe17f 40px, #ffe17f 100%);
 }
 
+.monopods-header {
+  padding: 20px 60px 20px 60px;
+}
+
 .search-button {
   position: relative;
   display: flex;

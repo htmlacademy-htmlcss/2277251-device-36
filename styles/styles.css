@@ -362,7 +362,7 @@ body {
   position: absolute;
   top: 35px;
   right: -72px;
-  z-index: 2;
+  z-index: 3;
   width: 320px;
   min-height: 307px;
   font-family: "Rubik", sans-serif;
@@ -388,6 +388,14 @@ body {
   height: 10px;
   background-color: transparent;
   cursor: pointer;
+}
+
+.popover-item-close-button:hover {
+  opacity: 0.6;
+}
+
+.popover-item-close-button:active{
+  opacity: 0.3;
 }
 
 .popover-item-close-button:focus-visible {

@@ -692,9 +692,6 @@ body {
 }
 
 .slider-wrapper {
-  margin-right: 40px;
-  width: 560px;
-  min-height: 560px;
   position: relative;
 }
 
@@ -1536,7 +1533,7 @@ body {
 .slider-prev {
   position: absolute;
   top: 210px;
-  left: 70px;
+  left: 30px;
   background-color: transparent;
   width: 20px;
   height: 60px;

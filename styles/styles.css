@@ -224,7 +224,7 @@ body {
 }
 
 .catalog {
-  max-width: 425px;
+  max-width: 476px;
   flex-wrap: wrap;
   display: flex;
   gap: 45px;
@@ -2040,6 +2040,10 @@ body {
   margin-bottom: 15px;
 }
 
+.contacts-address {
+  font-style: normal;
+}
+
 .contacts-address-text {
   color: #444444;
   margin-bottom: 0;
@@ -2226,6 +2230,7 @@ body {
 }
 
 .footer-contacts-address {
+  font-style: normal;
   margin-right: 124px;
 }
 

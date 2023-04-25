@@ -466,7 +466,6 @@ body {
   color: #ffffff;
 }
 
-
 .popover-cart::before {
   content: "";
   position: absolute;
@@ -477,7 +476,6 @@ body {
   background-image: url("../images/popover-arrow.svg");
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 .popover-cart-button-wrapper {
@@ -560,7 +558,8 @@ body {
   outline-offset: 2px;
 }
 
-/* Slider */
+/* Слайдер */
+
 .slider {
   position: relative;
   margin: 0;
@@ -740,7 +739,6 @@ body {
 .search-button:active {
   background-color: #000000;
   color: rgba(255, 255, 255, 0.188);
-
 }
 
 .search-button:focus-visible::before {
@@ -1029,7 +1027,8 @@ body {
   outline-offset: 2px;
 }
 
-/* Filter */
+/* Фильтр */
+
 .range-wrapper {
   display: flex;
   position: relative;
@@ -1197,8 +1196,7 @@ body {
   padding-left: 16px;
 }
 
-
-/* Label */
+/* Описания в фильтре */
 .catalog-filter-label {
   font-size: 14px;
   line-height: 20px;
@@ -1297,7 +1295,8 @@ body {
   border-radius: 50%;
 }
 
-/* Item */
+/* Карточки товара */
+
 .monopod-card {
   background-color: #ffffff;
   position: relative;
@@ -1341,7 +1340,6 @@ body {
   transition: opacity 0.3s ease;
 }
 
-
 .monopod-card::before {
   content: "Подробнее";
   position: absolute;
@@ -1351,10 +1349,9 @@ body {
   height: 8px;
   color: #000000;
   background-color: #ffe17f;
-
 }
 
-/* Link */
+/* Состояния карточек товаров  */
 .monopod-card-link {
   text-decoration: none;
   outline: none;
@@ -1400,7 +1397,6 @@ body {
   opacity: 0.6;
 }
 
-/* Title */
 .monopod-card-title {
   font-weight: 700;
   line-height: 20px;
@@ -1409,15 +1405,13 @@ body {
   transition: opacity 0.3s ease;
 }
 
-/* Price */
 .monopod-card-price {
   line-height: 21px;
   color: #444444;
   transition: opacity 0.3s ease;
 }
 
-
-/* Pagination */
+/* Пагинация*/
 
 .pagination-container {
   width: 760px;
@@ -1527,7 +1521,8 @@ body {
   padding: 0 12px;
 }
 
-/* Slider */
+/* Слайдер */
+
 .slider-product-title {
   margin-top: 0;
   width: 545px;
@@ -1591,6 +1586,7 @@ body {
 }
 
 /* Стилизация кнопок */
+
 .button {
   cursor: pointer;
   font-family: "Raleway", sans-serif;
@@ -1779,7 +1775,8 @@ body {
 .button-decorated-show-more:hover::before {
   transform: translateY(-50%) scaleY(1);
 }
-/* Конец стилизации кнопок */
+
+/* Характеристики в слайдере */
 
 .characteristics-description {
   font-size: 16px;
@@ -1808,7 +1805,6 @@ body {
   margin: 0;
   padding: 0;
   margin-bottom: 70px;
-
 }
 
 .catalog-category-link {
@@ -1830,7 +1826,6 @@ body {
 .catalog-category-link:active {
   opacity: 0.3;
 }
-
 
 .catalog-category-link:focus-within {
   outline: 2px solid #af4fff;
@@ -1901,7 +1896,6 @@ body {
  flex-direction: column;
 }
 
-
 .advantages-description {
   min-width: 458px;
   color: #444444;
@@ -1954,6 +1948,7 @@ body {
 .delivery-info-link:hover.delivery-info-link::before {
   background-color: #ffc700;
 }
+
 .delivery-info-link:active {
   opacity: 0.3;
 }
@@ -1964,6 +1959,7 @@ body {
 }
 
 /* Блок с табами */
+
 .tabs-buttons-list {
   position: relative;
   display: flex;
@@ -1996,6 +1992,7 @@ body {
 }
 
 /* Блок "Связаться с нами" */
+
 .contact {
   display: flex;
   margin-bottom: 80px;
@@ -2113,6 +2110,7 @@ body {
 }
 
 /* Блок "Подпишитесь на рассылку" */
+
 .newsletter-wrapper {
   margin-bottom: 130px;
 }
@@ -2194,7 +2192,7 @@ body {
   font-size: 18px;
 }
 
-/* Footer */
+/* Футер */
 
 .footer-index {
   margin-top: auto;
@@ -2379,7 +2377,8 @@ body {
   margin-bottom: 35px;
 }
 
-/* Modal */
+/* Модальное окно */
+
 .modal-container {
   z-index: 1;
   position: fixed;
@@ -2593,9 +2592,7 @@ body {
   opacity: 0.3;
 }
 
-
-
-/* Tooltip */
+/* Тултип */
 
 .tooltip {
   position: relative;
@@ -2612,7 +2609,6 @@ body {
   width: 26px;
   height: 26px;
   cursor: pointer;
-
 }
 
 .tooltip-icon {

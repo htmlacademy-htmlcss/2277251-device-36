@@ -1193,6 +1193,7 @@ body {
   font-size: 18px;
   line-height: 30px;
   background-color: inherit;
+  padding-left: 16px;
 }
 
 
@@ -2190,14 +2191,50 @@ body {
 
 .footer-index {
   background-color:#444444;
-  min-height: 321px;
+  padding: 62px 0 62px 0;
+}
+
+.footer-wrapper {
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.footer-socials-wrapper {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-socials-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 7px;
+  top: 16px;
+  left: 0;
+  background-image: url("../images/yellow-stick-image.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-contacts-address {
+  margin-right: 124px;
 }
 
 .footer-about-text {
-  min-width: 240px;
+  margin: 0;
+  width: 240px;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+}
+
+.footer-navigation-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 47px;
 }
 
 .footer-list-link {
@@ -2226,6 +2263,7 @@ body {
 }
 
 .footer-contacts-phone {
+  max-width: 175px;
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
@@ -2253,26 +2291,6 @@ body {
   min-height: 321px;
 }
 
-.footer-address {
-  position: relative;
-  width: 234px;
-  min-height: 182px;
-  margin-top: 76px;
-  margin-right: 124px;
-}
-
-.footer-address::after {
-  content: "";
-  position: absolute;
-  width: 80px;
-  height: 7px;
-  bottom: 0;
-  left: 0;
-  background-image: url("../images/yellow-stick-image.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .footer-phone {
   margin-top: 150px;
   margin-left: auto;
@@ -2284,6 +2302,9 @@ body {
 }
 
 .logo-html-academy {
+  position: absolute;
+  top: 5px;
+  right: 0;
   display: flex;
   align-self: self-end;
 }
@@ -2302,27 +2323,18 @@ body {
   outline-offset: 2px;
 }
 
-
-.footer-lists {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 456px;
-  min-height: 123px;
-  margin-top: 142px;
-}
-
 .footer-list {
-  width: 456px;
+  max-width: 446px;
   flex-wrap: wrap;
   gap: 35px;
-  margin-bottom: 62px;
+  margin-right: 176px;
 }
 
 .footer-socials-list {
+  max-width: 444px;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 15px;
 }
 

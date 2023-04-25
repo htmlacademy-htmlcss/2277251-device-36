@@ -1609,7 +1609,7 @@ body {
   max-width: 260px;
   position: relative;
   z-index: 1;
-  padding: 16px 25px;
+  padding: 10px 25px;
   text-align: center;
   transition: flex-grow 0.3s ease, color 0.3s ease, padding-left 0.3s ease;
 }
@@ -1618,7 +1618,7 @@ body {
   max-width: 220px;
   position: relative;
   z-index: 1;
-  padding: 16px 25px;
+  padding: 10px 25px;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -1648,7 +1648,7 @@ body {
   max-width: 278px;
   position: relative;
   z-index: 1;
-  padding: 16px 25px;
+  padding: 10px 25px;
   text-align: center;
 }
 
@@ -1762,7 +1762,7 @@ body {
   max-width: 220px;
   position: relative;
   z-index: 1;
-  padding: 16px 25px;
+  padding: 10px 25px;
   text-align: center;
   border: none;
   font-size: 18px;

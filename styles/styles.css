@@ -618,20 +618,16 @@ body {
 }
 
 .characteristics {
-  width: 307px;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
-  grid-template-columns: 140px 148px;
   column-gap: 20px;
-  row-gap: 12px;
 }
 
-.bracelete-characteristics {
+.characteristics-wrapper {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  width: 155px;
-  min-height: 72px;
+  row-gap: 12px;
 }
 
 .slider-page {
@@ -1780,35 +1776,15 @@ body {
 }
 /* Конец стилизации кнопок */
 
-.range-of-flight {
-  margin: 0;
-  display: flex;
-  min-width: 140px;
-  font-size: 36px;
-}
-
-.range-of-working {
-  margin: 0;
-  display: flex;
-  min-width: 140px;
-  font-size: 36px;
-}
-
-.range-of-flight-text {
-  grid-row-start: 2;
+.characteristics-description {
   font-size: 16px;
   color: #444444;
 }
 
-.damage-radius {
+.characteristics-attribute {
+  order: -1;
   margin: 0;
   font-size: 36px;
-}
-
-.damage-radius-text {
-  grid-row-start: 2;
-  font-size: 16px;
-  color: #444444;
 }
 
 .slider-number-text {

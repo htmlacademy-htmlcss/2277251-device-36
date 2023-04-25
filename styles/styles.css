@@ -1964,11 +1964,10 @@ body {
   display: flex;
   flex-direction: column;
   gap: 35px;
-  justify-content: center;
   width: 287px;
   min-height: 280px;
   margin: 0;
-  padding: 0;
+  padding: 41px 0 0 0;
   list-style-type: none;
 }
 

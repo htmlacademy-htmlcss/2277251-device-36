@@ -1975,7 +1975,7 @@ body {
   content: "";
   position: absolute;
   width: 7px;
-  height: 319px;
+  height: calc(100% - 50px);
   top: 0;
   left: 280px;
   background-color: #000000;

@@ -1,25 +1,25 @@
 /* Fonts */
 @font-face {
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
   src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Rubik";
-  font-style: normal;
-  font-weight: 400;
   src: url("../fonts/rubik/rubik-400.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Rubik";
-  font-style: normal;
-  font-weight: 700;
   src: url("../fonts/rubik/rubik-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
   font-display: swap;
 }
 
@@ -564,7 +564,6 @@ body {
   position: relative;
   margin: 0;
   padding: 0;
-  display: flex;
 }
 
 .slider-list::before {
@@ -2200,6 +2199,7 @@ body {
 /* Footer */
 
 .footer-index {
+  margin-top: auto;
   background-color:#444444;
   padding: 62px 0 62px 0;
 }

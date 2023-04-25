@@ -232,7 +232,7 @@ body {
 }
 
 .login-list {
-  margin: 0;
+  margin: 4px 0 0 0;
   padding: 0;
   min-width: 204px;
   display: flex;
@@ -268,15 +268,13 @@ body {
 
 .header-navigation-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  gap: 24px;
   margin-bottom: 26px;
 }
 
 .main-navigation {
   min-width: 496px;
   display: flex;
-  align-items: center;
-  margin-left: auto;
 }
 
 .right-navigation-wrapper {
@@ -533,7 +531,7 @@ body {
 
 .search-input {
   width: 360px;
-  height: 40px;
+  height: 100%;
   font-family: 'Rubik';
   font-size: 16px;
   line-height: 20px;
@@ -543,7 +541,7 @@ body {
   background-color: #ffe17f;
   background-image: url("../images/search-icon.svg");
   background-repeat: no-repeat;
-  background-position: 16px 10px;
+  background-position: 16px center;
   outline: none;
 }
 
@@ -610,7 +608,7 @@ body {
 
 .header-lists-wrapper {
   display: flex;
-
+  gap: 40px;
 }
 
 .button-details {
@@ -724,12 +722,11 @@ body {
   justify-content: center;
   align-items: center;
   width: 160px;
-  height: 40px;
+  min-height: 40px;
   border: 2px solid #000000;
   border-radius: 0 50px 50px 0;
   border-left: none;
   text-align: center;
-  padding: 10px;
   line-height: 20px;
   text-decoration: none;
   color: #000000;
@@ -768,6 +765,7 @@ body {
   width: 520px;
   margin: 0;
   display: flex;
+  align-self: flex-start;
 }
 
 .login-username {

@@ -1197,6 +1197,11 @@ body {
   padding-left: 16px;
 }
 
+.field:focus {
+  background-color: #dcdcdc;
+  outline: none;
+}
+
 /* Описания в фильтре */
 .catalog-filter-label {
   font-size: 14px;

@@ -1482,6 +1482,7 @@ body {
   padding: 25px;
   cursor: pointer;
   min-width: 128px;
+  height: 100%;
   font-family: "Raleway", sans-serif;
   line-height: 21px;
   letter-spacing: 0.2em;
@@ -1497,6 +1498,7 @@ body {
   padding: 25px;
   cursor: pointer;
   min-width: 128px;
+  height: 100%;
   font-family: "Raleway", sans-serif;
   line-height: 21px;
   letter-spacing: 0.2em;

@@ -1633,6 +1633,10 @@ body {
   outline-offset: 2px;
 }
 
+.button:disabled {
+  opacity: 0.3;
+}
+
 .button-decorated {
   position: relative;
   z-index: 1;

@@ -2150,17 +2150,21 @@ body {
 
 .newsletter {
   background-color: #f0f0f0;
+  padding-top: 64px;
   padding-bottom: 55px;
 }
 
 .newsletter-title {
-  min-width: 348px;
+  width: 348px;
+  margin: 0 252px 0 0;
   font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
 }
 
 .newsletter-description {
+  margin: 0;
+  align-self: center;
   max-width: 528px;
   color: #444444;
 }

@@ -1304,8 +1304,14 @@ body {
 /* Карточки товара */
 
 .monopod-card {
+  display: block;
   background-color: #ffffff;
   position: relative;
+}
+
+.monopod-card-description {
+  display: flex;
+  justify-content: space-between;
 }
 
 .monopod-card-image-wrapper {
@@ -1360,6 +1366,7 @@ body {
 /* Состояния карточек товаров  */
 
 .monopod-card-link {
+  display: block;
   text-decoration: none;
   outline: none;
 }
@@ -1382,7 +1389,7 @@ body {
   opacity: 0.3;
 }
 
-.monopod-card:focus-within {
+.monopod-card-link:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
@@ -1405,6 +1412,7 @@ body {
 }
 
 .monopod-card-title {
+  max-width: 235px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: -0.02em;
@@ -1413,6 +1421,7 @@ body {
 }
 
 .monopod-card-price {
+  align-self: center;
   line-height: 21px;
   color: #444444;
   transition: opacity 0.3s ease;

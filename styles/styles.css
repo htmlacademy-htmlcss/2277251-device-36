@@ -2571,13 +2571,13 @@ button-upload-more:disabled {
 .name-input {
   background-image: url("../images/modal-name-icon.svg");
   background-repeat: no-repeat;
-  background-position: 325px 24px;
+  background-position: 315px 24px;
 }
 
 .email-input {
   background-image: url("../images/modal-email-icon.svg");
   background-repeat: no-repeat;
-  background-position: 325px 24px;
+  background-position: 315px 24px;
 }
 
 .order-data-input {

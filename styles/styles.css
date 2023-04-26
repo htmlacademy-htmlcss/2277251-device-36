@@ -218,6 +218,10 @@ body {
   outline-offset: 2px;
 }
 
+button-upload-more:disabled {
+  opacity: 0.3;
+}
+
 .header-container {
   display: block;
   width: 1040px;

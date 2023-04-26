@@ -213,7 +213,7 @@ body {
   opacity: 0.3;
 }
 
-.button-upload-more:focus {
+.button-upload-more:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
@@ -262,8 +262,8 @@ body {
   opacity: 0.3;
 }
 
-.main-logo-link:focus-within,
-.footer-logo-link:focus-within {
+.main-logo-link:focus-visible,
+.footer-logo-link:focus-visible {
   outline: 2px solid #af4fff;
 }
 
@@ -315,7 +315,7 @@ body {
   opacity: 0.3;
 }
 
-.login-link-button:focus-within {
+.login-link-button:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
@@ -340,7 +340,7 @@ body {
   opacity: 0.3;
 }
 
-.compare-button:focus-within {
+.compare-button:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
@@ -353,7 +353,7 @@ body {
   opacity: 0.3;
 }
 
-.cart-button:focus-within {
+.cart-button:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
@@ -1467,7 +1467,7 @@ body {
   opacity: 0.1;
 }
 
-.pagination-link:focus-within {
+.pagination-link:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
@@ -1516,8 +1516,8 @@ body {
   opacity: 0.3;
 }
 
-.pagination-prev:focus-within,
-.pagination-next:focus-within {
+.pagination-prev:focus-visible,
+.pagination-next:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }
@@ -1855,7 +1855,7 @@ body {
   opacity: 0.3;
 }
 
-.catalog-category-link:focus-within {
+.catalog-category-link:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 2px;;
 }
@@ -2191,7 +2191,7 @@ body {
   opacity: 0.3;
 }
 
-.newsletter-button:focus-within {
+.newsletter-button:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 3px;
 }
@@ -2387,7 +2387,7 @@ body {
   padding: 4px 13px;
 }
 
-.footer-socials-link:focus-within {
+.footer-socials-link:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 3px;
 }

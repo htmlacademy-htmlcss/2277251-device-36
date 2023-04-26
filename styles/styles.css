@@ -537,11 +537,15 @@ body {
   border: 2px solid #000000;
   border-radius: 50px 0 0 50px;
   padding-left: 48px;
-  background-color: #ffe17f;
+  background-color: inherit;
   background-image: url("../images/search-icon.svg");
   background-repeat: no-repeat;
   background-position: 16px center;
   outline: none;
+}
+
+.search-input::placeholder {
+  opacity: 0.3;
 }
 
 .search-input:disabled {
@@ -1639,6 +1643,7 @@ body {
 
 .tab-buttons-current.button-decorated {
   flex-grow: 1;
+  padding-right: 5px;
   padding-left: 20px;
   display: inline-flex;
 }

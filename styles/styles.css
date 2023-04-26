@@ -145,6 +145,14 @@ body {
   cursor: pointer;
 }
 
+.select-control:hover {
+  opacity: 0.6;
+}
+
+.select-control:active {
+  opacity: 0.3;
+}
+
 .select-control:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
@@ -161,10 +169,6 @@ body {
 .card-toggle-cheap-first {
   width: 30px;
   height: 30px;
-  background-image: url("../images/up-arrow.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.2;
   border: none;
   cursor: pointer;
 }
@@ -172,22 +176,29 @@ body {
 .card-toggle-expensive-first {
   width: 30px;
   height: 30px;
-  background-image: url("../images/down-arrow.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.2;
   border: none;
   cursor: pointer;
 }
 
-.card-toggle-cheap-first:hover,
-.card-toggle-expensive-first:hover {
-  opacity: 0.5;
+.cheap-first-image,
+.expensive-first-image {
+  fill: rgba(0, 0, 0, 0.125);
 }
 
-.card-toggle-cheap-first:active,
-.card-toggle-expensive-first:active {
-  opacity: 1;
+.card-toggle-cheap-first:hover .cheap-first-image,
+.card-toggle-expensive-first:hover .expensive-first-image {
+  fill: rgba(0, 0, 0, 0.314);
+}
+
+.card-toggle-cheap-first:active .cheap-first-image,
+.card-toggle-expensive-first:active .expensive-first-image {
+  fill: #000000;
+}
+
+.card-toggle-cheap-first:focus-visible,
+.card-toggle-expensive-first:focus-visible {
+  outline: 2px solid #af4fff;
+  z-index: 1;
 }
 
 .button-upload-more {

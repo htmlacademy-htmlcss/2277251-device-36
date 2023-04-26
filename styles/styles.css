@@ -1731,6 +1731,17 @@ body {
   transform: translateY(-50%) scale(1);
 }
 
+.tab-buttons-current:hover,
+.tab-buttons-current:active {
+  padding-left: 50px;
+}
+
+.tab-buttons-current:focus-visible {
+  outline: 2px solid #af4fff;
+  outline-offset: 2px;
+  padding-left: 50px;
+}
+
 .tabs-delivery-icon,
 .tabs-guarantee-icon,
 .tabs-credit-icon {
@@ -1857,7 +1868,7 @@ body {
 
 .catalog-category-link:focus-visible {
   outline: 2px solid #af4fff;
-  outline-offset: 2px;;
+  outline-offset: 2px;
 }
 
 .catalog-category-link::before {

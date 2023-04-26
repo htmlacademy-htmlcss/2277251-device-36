@@ -858,6 +858,7 @@ button-upload-more:disabled {
 
 .catalog-toggler-button {
   position: relative;
+  max-width: 300px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;

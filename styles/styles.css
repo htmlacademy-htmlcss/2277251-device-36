@@ -2571,6 +2571,10 @@ button-upload-more:disabled {
   outline-offset: 2px;
 }
 
+.user-data-input:disabled {
+  opacity: 0.3;
+}
+
 .name-input {
   background-image: url("../images/modal-name-icon.svg");
   background-repeat: no-repeat;
@@ -2600,6 +2604,10 @@ button-upload-more:disabled {
 .order-data-input:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
+}
+
+.order-data-input:disabled {
+  opacity: 0.3;
 }
 
 .order-data-wrapper {

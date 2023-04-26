@@ -1705,6 +1705,10 @@ body {
   transform: translateY(-50%) scaleY(1);
 }
 
+.contacts-wrapper .button-decorated {
+  max-width: 260px;
+}
+
 .button-decorated::before {
   content: "";
   position: absolute;

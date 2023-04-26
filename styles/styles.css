@@ -1622,6 +1622,11 @@ button-upload-more:disabled {
   outline-offset: 2px;
 }
 
+.slider-prev:disabled,
+.slider-next:disabled {
+  opacity: 0.1;
+}
+
 .slider-product-description {
   margin: 0;
   width: 560px;
@@ -2641,6 +2646,10 @@ button-upload-more:disabled {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
   z-index: 1;
+}
+
+.quantity-input:invalid .quantity-input-wrapper {
+  border: 2px solid #FF3D3D;
 }
 
 .quantity-input::-webkit-outer-spin-button,

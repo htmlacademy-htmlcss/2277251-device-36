@@ -1196,7 +1196,6 @@ button-upload-more:disabled {
   display: flex;
   flex-direction: column;
   width: 200px;
-  min-height: 168px;
   gap: 6px;
 }
 
@@ -1225,6 +1224,10 @@ button-upload-more:disabled {
 .field:focus {
   background-color: #dcdcdc;
   outline: none;
+}
+
+.field:disabled {
+  opacity: 0.3;
 }
 
 /* Описания в фильтре */

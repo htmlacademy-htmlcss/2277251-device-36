@@ -172,6 +172,7 @@ body {
   height: 30px;
   border: none;
   cursor: pointer;
+  background-color: inherit;
 }
 
 .card-toggle-expensive-first {
@@ -179,6 +180,7 @@ body {
   height: 30px;
   border: none;
   cursor: pointer;
+  background-color: inherit;
 }
 
 .cheap-first-image,

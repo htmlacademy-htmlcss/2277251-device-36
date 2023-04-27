@@ -2036,11 +2036,17 @@ button-upload-more:disabled {
   background-image: url("../images/info-image.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-color: rgba(220, 220, 220, 0.5);
+  background-color: #dcdcdc;
+  opacity: 0.5;
 }
 
 .delivery-info-link:hover.delivery-info-link::before {
   background-color: #ffc700;
+}
+
+.delivery-info-link:hover.delivery-info-link::after {
+  background-color: rgba(220, 220, 220, 0.5);
+  opacity: 1;
 }
 
 .delivery-info-link:active {

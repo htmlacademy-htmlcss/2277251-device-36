@@ -2053,7 +2053,7 @@ button-upload-more:disabled {
   opacity: 0.3;
 }
 
-.delivery-info-link:focus-within {
+.delivery-info-link:focus-visible {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
 }

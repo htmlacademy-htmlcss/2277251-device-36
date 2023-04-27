@@ -105,7 +105,7 @@ body {
 }
 
 .monopods-page-title {
-  margin-bottom: 34px;
+  margin-bottom: 30px;
 }
 
 .monopod-right-column {
@@ -120,7 +120,7 @@ body {
   padding-top: 70px;
   padding-left: 40px;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 44px;
 }
 
 .sorting-block-wrapper {
@@ -130,7 +130,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   background-color: #f0f0f0;
-  padding: 20px 40px;
+  padding: 12px 40px;
 }
 
 .select-control {
@@ -205,9 +205,7 @@ body {
   width: 760px;
   min-height: 55px;
   border: 3px solid #e5e5e5;
-  margin: 0 auto;
-  margin-top: 62px;
-  margin-bottom: 62px;
+  margin: 44px auto 44px;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   letter-spacing: 0.2em;
@@ -251,11 +249,11 @@ button-upload-more:disabled {
 .login-list {
   margin: 4px 0 0 0;
   padding: 0;
-  max-width: 226px;
+  max-width: 232px;
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  gap: 20px;
+  gap: 30px;
 }
 
 .main-logo-link {
@@ -741,7 +739,7 @@ button-upload-more:disabled {
 }
 
 .monopods-header {
-  padding: 20px 60px 20px 60px;
+  padding: 21px 58px 22px 62px;
 }
 
 .search-button {
@@ -1041,8 +1039,8 @@ button-upload-more:disabled {
 .monopods-title {
   margin: 0;
   padding: 0;
-  padding-top: 35px;
-  padding-bottom: 16px;
+  padding-top: 36px;
+  padding-bottom: 10px;
   font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
@@ -1177,7 +1175,7 @@ button-upload-more:disabled {
   line-height: 19px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  margin-bottom: 60px;
+  margin: 5px 0 70px 0;
 }
 
 .monopod-title-sorting {
@@ -1186,7 +1184,7 @@ button-upload-more:disabled {
   line-height: 19px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  margin-right: 205px;
+  margin-right: 200px;
 }
 
 .monopod-filter-title {
@@ -1217,7 +1215,12 @@ button-upload-more:disabled {
 .monopod-filter-group {
   border: none;
   padding: 0;
-  margin-bottom: 35px;
+  margin-bottom: 42px;
+}
+
+.monopod-item-color {
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .filter-wrapper {
@@ -1460,7 +1463,9 @@ button-upload-more:disabled {
 }
 
 .monopod-card-title {
-  max-width: 235px;
+  max-width: 205px;
+  margin: 32px 0 0 0;
+  font-size: 18px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: -0.02em;
@@ -1469,7 +1474,7 @@ button-upload-more:disabled {
 }
 
 .monopod-card-price {
-  align-self: center;
+  margin: 32px 0 0 0;
   line-height: 21px;
   color: #444444;
   transition: opacity 0.3s ease;
@@ -1494,6 +1499,7 @@ button-upload-more:disabled {
 }
 
 .pagination-item {
+  padding: 2px;
   width: 40px;
   height: 40px;
 }
@@ -1528,7 +1534,7 @@ button-upload-more:disabled {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25px;
+  padding: 20px;
   cursor: pointer;
   min-width: 128px;
   height: 100%;
@@ -1544,7 +1550,7 @@ button-upload-more:disabled {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 25px;
+  padding: 20px;
   cursor: pointer;
   min-width: 128px;
   height: 100%;
@@ -2353,7 +2359,7 @@ button-upload-more:disabled {
 
 .footer-contacts-address {
   font-style: normal;
-  margin-right: 115px;
+  margin-right: 118px;
 }
 
 .footer-about-text {

@@ -1231,6 +1231,10 @@ button-upload-more:disabled {
   opacity: 0.3;
 }
 
+.field-invalid {
+  border-bottom: solid 3px #ff3d3d;
+}
+
 /* Описания в фильтре */
 
 .catalog-filter-label {
@@ -2492,6 +2496,9 @@ button-upload-more:disabled {
   width: 100%;
   height: 100%;
   background-color:rgba(240, 240, 240, 0.9);
+}
+
+.modal-closed {
   display: none;
 }
 
@@ -2568,6 +2575,23 @@ button-upload-more:disabled {
   padding: 20px;
 }
 
+.email-input-invalid {
+  outline: 2px solid #ff3d3d;
+}
+
+.name-error-text {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.email-error-text {
+  font-family: "Rubik", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ff3d3d;
+}
+
 .user-data-input:hover,
 .user-data-input:active {
   background-color: #dcdcdc;
@@ -2634,6 +2658,10 @@ button-upload-more:disabled {
   display: flex;
 }
 
+.quantity-input-wrapper-invalid {
+  outline: 2px solid #ff3d3d;
+}
+
 .minus {
   width: 60px;
   height: 60px;
@@ -2664,10 +2692,6 @@ button-upload-more:disabled {
   outline: 2px solid #af4fff;
   outline-offset: 2px;
   z-index: 1;
-}
-
-.quantity-input:invalid .quantity-input-wrapper {
-  border: 2px solid #FF3D3D;
 }
 
 .quantity-input::-webkit-outer-spin-button,

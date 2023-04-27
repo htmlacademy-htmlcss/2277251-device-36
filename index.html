@@ -437,6 +437,7 @@
             <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
               <label class="field-label">
                 <span class="visually-hidden">Ваш e-mail.</span>
+                <!-- Состояние ошибки отображается при добавлении в <input> класса "field-invalid"  -->
                 <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" required>
               </label>
               <button class="button newsletter-button" type="submit">
@@ -566,7 +567,8 @@
         </div>
       </footer>
 
-      <div class="modal-container">
+      <!-- Для открытия модального окна уберите класс "modal-closed" ниже у div -->
+      <div class="modal-container modal-closed">
         <div class="modal modal-delivery">
           <button class="modal-close-button" type="button">
             <span class="visually-hidden">Закрыть</span>
@@ -576,19 +578,26 @@
             <form class="delivery-form" action="https://echo.htmlacademy.ru/" method="post">
               <div class="delivery-form-wrapper">
                 <div class="user-data-wrapper">
-                  <label class="delivery-form-label">
-                    Ваше имя:
-                    <input class="user-data-input name-input" type="text" placeholder="Введите имя">
-                  </label>
-                  <label class="delivery-form-label">
-                    Ваш e-mail:
-                    <input class="user-data-input email-input" type="email" placeholder="Введите email" value="почта">
-                  </label>
+                  <div class="modal-name-wrapper">
+                    <label class="delivery-form-label">
+                      Ваше имя:
+                      <input class="user-data-input name-input" type="text" placeholder="Введите имя" required>
+                    </label>
+                    <!-- Текст ошибки появляется убрав класс "visually-hidden" у спана ниже -->
+                    <span class="visually-hidden name-error-text">Добавьте имя</span>
+                  </div>
+                  <div class="modal-email-wrapper">
+                    <label class="delivery-form-label">
+                      Ваш e-mail:
+                      <input class="user-data-input email-input-invalid email-input" type="email" placeholder="Введите email" value="почта" required>
+                    </label>
+                    <span class="email-error-text">Забавный у вас адрес</span>
+                  </div>
                 </div>
                 <div class="order-data-wrapper">
                   <label class="delivery-form-label">
                     Что нужно привезти:
-                    <input class="order-data-input" type="text" placeholder="В свободной форме">
+                    <input class="order-data-input" type="text" placeholder="В свободной форме" required>
                   </label>
                   <div class="quantity-buttons-wrapper">
                     <span class="delivery-form-label delivery-form-label-icon">
@@ -608,6 +617,7 @@
                         </span>
                       </span>
                     </span>
+                    <!-- Состояние ошибки отображается при добавлении в div ниже класса "quantity-input-wrapper-invalid" -->
                       <div class="quantity-input-wrapper">
                         <button class="minus" type="button">
                           <span class="visually-hidden">Уменьшить количество</span>

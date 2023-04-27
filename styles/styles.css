@@ -2148,7 +2148,7 @@ body {
   width: 500px;
   margin: 0;
   color: #444444;
-  margin-bottom: 28px;
+  margin-bottom: 25px;
 }
 
 .transport-company {
@@ -2209,7 +2209,7 @@ body {
 .about-us-list {
   flex-direction: column;
   gap: 10px;
-  margin-bottom: 18px;
+  margin-bottom: 25px;
 }
 
 .contacts-wrapper {

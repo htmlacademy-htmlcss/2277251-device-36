@@ -1943,7 +1943,7 @@ body {
   line-height: 24px;
   color: #000000;
   text-decoration: none;
-  padding-top: 190px;
+  padding-top: 196px;
 }
 
 .catalog-category-link:hover.catalog-category-link::before {
@@ -2140,6 +2140,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -2186,7 +2187,7 @@ body {
 .contacts-phone {
   display: inline-block;
   color: #444444;
-  margin-bottom: 30px;
+  margin-bottom: 26px;
 }
 
 .contacts-schedule {
@@ -2208,7 +2209,7 @@ body {
 .about-us-list {
   flex-direction: column;
   gap: 10px;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 .contacts-wrapper {

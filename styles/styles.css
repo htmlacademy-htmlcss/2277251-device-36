@@ -601,7 +601,8 @@ body {
   flex-direction: column;
   align-self: center;
   z-index: 1;
-  padding-top: 70px;
+  padding-top: 96px;
+  margin-bottom: 25px;
 }
 
 .slider-list {
@@ -649,7 +650,6 @@ body {
 }
 
 .slider-page {
-  /* min-height: 583px; */
   visibility: hidden;
   position: absolute;
   gap: 40px;
@@ -665,6 +665,10 @@ body {
   margin-right: 20px;
 }
 
+.slider-pagination-wrapper {
+  transform: translateY(-66px);
+}
+
 .slider-pagination {
   padding: 0;
   display: flex;
@@ -673,7 +677,6 @@ body {
   list-style-type: none;
   gap: 20px;
   margin: 0 auto;
-  transform: translateY(-38px);
 }
 
 .slider-pagination-button {
@@ -2041,6 +2044,9 @@ body {
   background-color: #f0f0f0;
   color: #000000;
   padding: 39px 125px;
+}
+
+.delivery-block {
   margin-bottom: 70px;
 }
 

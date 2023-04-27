@@ -227,7 +227,7 @@ body {
   outline-offset: 2px;
 }
 
-button-upload-more:disabled {
+.button-upload-more:disabled {
   opacity: 0.3;
 }
 
@@ -1124,7 +1124,7 @@ button-upload-more:disabled {
   padding: 0;
 }
 
-.range-toggle-description:placeholder-shown {
+.range-toggle-description::placeholder {
   opacity: 0.3;
 }
 

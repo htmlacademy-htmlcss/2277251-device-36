@@ -2234,7 +2234,7 @@ button-upload-more:disabled {
 /* Блок "Подпишитесь на рассылку" */
 
 .newsletter-wrapper {
-  margin-bottom: 130px;
+  margin-bottom: 144px;
 }
 
 .newsletter-form-wrapper {
@@ -2244,12 +2244,12 @@ button-upload-more:disabled {
 
 .newsletter {
   background-color: #f0f0f0;
-  padding-top: 64px;
+  padding-top: 55px;
   padding-bottom: 55px;
 }
 
 .newsletter-title {
-  width: 348px;
+  width: 355px;
   margin: 0 252px 0 0;
   font-family: "Raleway", sans-serif;
   font-size: 50px;
@@ -2353,7 +2353,7 @@ button-upload-more:disabled {
 
 .footer-contacts-address {
   font-style: normal;
-  margin-right: 124px;
+  margin-right: 115px;
 }
 
 .footer-about-text {
@@ -2400,6 +2400,7 @@ button-upload-more:disabled {
   font-size: 16px;
   line-height: 20px;
   color: #ffffff;
+  padding-top: 6px;
 }
 
 .footer-contacts-phone:hover,
@@ -2460,7 +2461,8 @@ button-upload-more:disabled {
   max-width: 446px;
   flex-wrap: wrap;
   gap: 35px;
-  margin-right: 176px;
+  margin-right: 183px;
+  padding-top: 4px;
 }
 
 .footer-socials-list {

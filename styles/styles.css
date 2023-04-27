@@ -580,7 +580,7 @@ button-upload-more:disabled {
 
 .slider {
   position: relative;
-  margin: 0;
+  margin: 0 0 17px 0;
   padding: 0;
 }
 
@@ -672,21 +672,34 @@ button-upload-more:disabled {
   list-style-type: none;
   gap: 20px;
   margin: 0 auto;
-  margin-bottom: 70px;
+  transform: translateY(-50px);
 }
 
 .slider-pagination-button {
-  width: 16px;
-  height: 16px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  width: 12px;
+  height: 12px;
   cursor: pointer;
   background-color: #ffffff;
   border-radius: 50%;
   border: 2px solid #000000;
 }
 
+.slider-pagination-button::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .slider-pagination-button-current {
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   cursor: pointer;
   background-color: #000000;
   border-radius: 50%;
@@ -701,10 +714,17 @@ button-upload-more:disabled {
   opacity: 0.3;
 }
 
-.slider-pagination-item:focus-within {
+.slider-pagination-button:focus-visible::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   outline: 2px solid #af4fff;
-  outline-offset: 2px;
+  outline-offset: 4px;
 }
+
 
 .slider-wrapper {
   position: relative;
@@ -1804,8 +1824,8 @@ button-upload-more:disabled {
 .tabs-delivery-icon::after {
   content: "";
   position: absolute;
-  top: 42px;
-  right: -242px;
+  top: 46px;
+  left: 558px;
   width: 136px;
   height: 164px;
   background-image: url("../images/tabs-deliveryman-image.svg");
@@ -1890,13 +1910,16 @@ button-upload-more:disabled {
 
 /* Список категорий каталога */
 
+.catalog-category {
+  margin-bottom: 90px;
+}
+
 .catalog-category-list {
   list-style-type: none;
   gap: 40px;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  margin-bottom: 70px;
 }
 
 .catalog-category-link {
@@ -1977,6 +2000,7 @@ button-upload-more:disabled {
   font-family: "Raleway", sans-serif;
   font-size: 50px;
   line-height: 50px;
+  margin-bottom: 34px;
 }
 
 .tabs-description-item {
@@ -1989,6 +2013,7 @@ button-upload-more:disabled {
 }
 
 .advantages-description {
+  margin-top: 0;
   min-width: 458px;
   color: #444444;
 }
@@ -2066,7 +2091,7 @@ button-upload-more:disabled {
   width: 287px;
   min-height: 280px;
   margin: 0;
-  padding: 41px 0 0 0;
+  padding: 45px 0 0 0;
   list-style-type: none;
 }
 
@@ -2074,8 +2099,8 @@ button-upload-more:disabled {
   content: "";
   position: absolute;
   width: 7px;
-  height: calc(100% - 50px);
-  top: 0;
+  height: calc(100% + 10px);
+  top: -20px;
   left: 280px;
   background-color: #000000;
 }
@@ -2086,7 +2111,7 @@ button-upload-more:disabled {
   width: 694px;
   min-height: 174px;
   list-style-type: none;
-  padding: 13px 132px 64px 110px;
+  padding: 13px 132px 64px 115px;
 }
 
 /* Блок "Связаться с нами" */

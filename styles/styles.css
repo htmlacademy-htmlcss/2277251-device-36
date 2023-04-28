@@ -762,7 +762,7 @@ body {
   line-height: 20px;
   text-decoration: none;
   color: #000000;
-  font-family: 'Rubik';
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   outline: none;
 }
@@ -2515,7 +2515,7 @@ body {
 }
 
 .footer-socials-item:hover {
-  background: #FFC700;
+  background: #ffc700;
 }
 
 .footer-socials-item:active .footer-socials-image {

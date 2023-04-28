@@ -377,10 +377,10 @@ body {
 .popover {
   position: absolute;
   top: 35px;
-  right: -72px;
+  right: -78px;
   z-index: 3;
   width: 320px;
-  min-height: 307px;
+  min-height: 301px;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -474,10 +474,12 @@ body {
 }
 
 .order-items-quantity {
+  margin: 0;
   color: #ffffff;
 }
 
 .order-price {
+  margin: 0;
   color: #ffffff;
 }
 
@@ -758,13 +760,13 @@ body {
   border: 2px solid #000000;
   border-radius: 0 20px 20px 0;
   border-left: none;
-  text-align: center;
   line-height: 20px;
   text-decoration: none;
   color: #000000;
-  font-family: 'Rubik';
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   outline: none;
+  background-color: inherit;
 }
 
 .search-button:hover {
@@ -887,6 +889,7 @@ body {
   background-color: inherit;
   padding: 15px 67px 10px 0;
   cursor: pointer;
+  z-index: 1;
 }
 
 .catalog-toggler-button::before {
@@ -932,11 +935,11 @@ body {
 
 .catalog-toggler-menu {
   position: absolute;
-  top: 50px;
+  top: 54px;
   left: -60px;
   flex-wrap: wrap;
   width: 1160px;
-  min-height: 172px;
+  min-height: 156px;
   padding: 10px 60px 10px 60px;
   z-index: 2;
   background-color: #ffe17f;
@@ -950,7 +953,7 @@ body {
 }
 
 .subcatalog {
-  gap: 30px;
+  gap: 18px;
   z-index: 1;
   flex-direction: column;
 }
@@ -1048,6 +1051,7 @@ body {
   padding-top: 36px;
   padding-bottom: 10px;
   font-family: "Raleway", sans-serif;
+  font-weight: 800;
   font-size: 50px;
   line-height: 50px;
 }
@@ -1221,7 +1225,7 @@ body {
 .monopod-filter-group {
   border: none;
   padding: 0;
-  margin-bottom: 42px;
+  margin-bottom: 40px;
 }
 
 .monopod-item-color {
@@ -1606,6 +1610,7 @@ body {
   width: 545px;
   font-family: "Raleway", sans-serif;
   font-size: 50px;
+  font-weight: 800;
   line-height: 50px;
 }
 
@@ -1873,10 +1878,11 @@ body {
   max-width: 220px;
   position: relative;
   z-index: 1;
-  padding: 10px 25px;
+  padding: 10px 50px;
   text-align: center;
   border: none;
   font-size: 18px;
+  margin-top: -6px;
 }
 
 .button-decorated-show-more::before {
@@ -2011,6 +2017,7 @@ body {
 .advantages-tab-title {
   font-family: "Raleway", sans-serif;
   font-size: 50px;
+  font-weight: 800;
   line-height: 50px;
   margin-bottom: 34px;
 }
@@ -2043,7 +2050,7 @@ body {
   text-decoration: none;
   background-color: #f0f0f0;
   color: #000000;
-  padding: 39px 125px;
+  padding: 39px 180px;
 }
 
 .delivery-block {
@@ -2056,7 +2063,7 @@ body {
   top: 0;
   left: 0;
   width: 125px;
-  height: 100px;
+  height: 100%;
   background-color: #ffe17f;
   background-image: url("../images/delivery-car-image.svg");
   background-repeat: no-repeat;
@@ -2287,6 +2294,8 @@ body {
 }
 
 .newsletter-button {
+  font-size: 18px;
+  font-weight: 800;
   width: 253px;
   border: 3px solid #c4c4c4;
   cursor: pointer;
@@ -2298,11 +2307,10 @@ body {
   color: #ffffff;
 }
 
-.newsletter-button:active .button-subscribe-text {
+.newsletter-button:active {
   border: none;
   background-color: #000000;
-  color: #ffffff;
-  opacity: 0.3;
+  color: #4c4c4c;
 }
 
 .newsletter-button:focus-visible {
@@ -2332,6 +2340,8 @@ body {
 
 .button-subscribe-text {
   font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.2em;
 }
 
 /* Футер */
@@ -2509,7 +2519,7 @@ body {
 }
 
 .footer-socials-item:hover {
-  background: #FFC700;
+  background: #ffc700;
 }
 
 .footer-socials-item:active .footer-socials-image {
@@ -2606,6 +2616,8 @@ body {
   width: 100%;
   height: 60px;
   margin-top: 9px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   background-color: #f0f0f0;
@@ -2667,6 +2679,10 @@ body {
   height: 60px;
   margin-top: 14px;
   background-color: #f0f0f0;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
   border: none;
   padding: 20px;
 }

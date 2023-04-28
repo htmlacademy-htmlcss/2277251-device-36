@@ -887,6 +887,7 @@ body {
   background-color: inherit;
   padding: 15px 67px 10px 0;
   cursor: pointer;
+  z-index: 1;
 }
 
 .catalog-toggler-button::before {
@@ -932,11 +933,11 @@ body {
 
 .catalog-toggler-menu {
   position: absolute;
-  top: 50px;
+  top: 54px;
   left: -60px;
   flex-wrap: wrap;
   width: 1160px;
-  min-height: 172px;
+  min-height: 156px;
   padding: 10px 60px 10px 60px;
   z-index: 2;
   background-color: #ffe17f;
@@ -950,7 +951,7 @@ body {
 }
 
 .subcatalog {
-  gap: 30px;
+  gap: 18px;
   z-index: 1;
   flex-direction: column;
 }

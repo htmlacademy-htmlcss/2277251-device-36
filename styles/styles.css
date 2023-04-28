@@ -1225,7 +1225,7 @@ body {
 .monopod-filter-group {
   border: none;
   padding: 0;
-  margin-bottom: 42px;
+  margin-bottom: 40px;
 }
 
 .monopod-item-color {
@@ -1878,10 +1878,11 @@ body {
   max-width: 220px;
   position: relative;
   z-index: 1;
-  padding: 10px 25px;
+  padding: 10px 50px;
   text-align: center;
   border: none;
   font-size: 18px;
+  margin-top: -6px;
 }
 
 .button-decorated-show-more::before {

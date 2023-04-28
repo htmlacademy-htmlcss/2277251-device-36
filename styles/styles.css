@@ -377,10 +377,10 @@ body {
 .popover {
   position: absolute;
   top: 35px;
-  right: -72px;
+  right: -78px;
   z-index: 3;
   width: 320px;
-  min-height: 307px;
+  min-height: 301px;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -474,10 +474,12 @@ body {
 }
 
 .order-items-quantity {
+  margin: 0;
   color: #ffffff;
 }
 
 .order-price {
+  margin: 0;
   color: #ffffff;
 }
 

@@ -2043,7 +2043,7 @@ body {
   text-decoration: none;
   background-color: #f0f0f0;
   color: #000000;
-  padding: 39px 125px;
+  padding: 39px 180px;
 }
 
 .delivery-block {
@@ -2056,7 +2056,7 @@ body {
   top: 0;
   left: 0;
   width: 125px;
-  height: 100px;
+  height: 100%;
   background-color: #ffe17f;
   background-image: url("../images/delivery-car-image.svg");
   background-repeat: no-repeat;

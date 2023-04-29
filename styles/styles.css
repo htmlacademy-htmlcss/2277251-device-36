@@ -553,7 +553,7 @@ body {
 .search-input {
   width: 360px;
   height: 100%;
-  font-family: 'Rubik';
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   line-height: 20px;
   border: 2px solid #000000;
